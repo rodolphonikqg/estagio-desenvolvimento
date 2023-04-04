@@ -1,0 +1,5 @@
+# Git
+
+É comum que, quando desenvolvemos nossos projetos pessoais apenas para adquirir experiência, seja utilizado apenas uma branch no projeto, mas ao adotarmos o uso de novas branchs a variar das características que iremos alterar no projeto, podemos organizar melhor os arquivos de modo geral, além de facilitar a leitura dos próximos usuários.
+
+O texto trata sobre o fluxo de trabalho utilizando o modelo **Git** Flow, que basicamente cria branches *'master'* e *'develop'* como base do projeto. As novas funcionalidades seriam adicionadas em branches *'feature'*, criadas a partir da *'develop'*. As branches *'feature'* serão mescladas na *'develop'* e após a testagem serão mescladas a branch *'release'*. Só então é criada uma tag para a versão e feito o merge na branch *'master'*. Além desse exemplo da branch *'feature'*, há também os casos em que são criadas branches denominadas como *'hotfix'*, *'bugfix'* e outros.
