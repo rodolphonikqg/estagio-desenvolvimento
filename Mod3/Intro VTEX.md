@@ -62,6 +62,10 @@ As configurações de preços vão utilizar muitos métodos listados acima, vist
 
 ### Promoções e taxas
 
+- Cupons e Taxas
+
+De forma intuitiva, os cupons aplicam descontos de acordo com um código específico - no caso do video, o exemplo foi um cupom de aniversário da ACCT. Em contrapartida, as taxas são percentuais aplicados em ocasiões pré-definidas.
+
 - Audiências de campanhas
 
 Possibilita a criação de campanhas para segmentar clientes, ou seja, de acordo com as características de um cliente e/ou produto, pode ser oferecido algum desconto ou vantagem para que a compra seja realizada da maneira mais benéfica possível para o vendedor. Por exemplo, se uma pessoa quer comprar 4 meias iguais, podemos adicionar uma campanha que oferece ao cliente um 5º par de meias, mas desta vez, esse par adicional sai com 30% de desconto.
@@ -86,7 +90,84 @@ Em relação aos aplicativos, esses estão disponíveis para facilitar a integra
 
 ## Módulo 5
 
-## Pedidos
+### Pedidos
 
 - Todos os pedidos e configurações
 
+Destina-se ao gerenciamento dos pedidos, detalhando os métodos de pagamento, envio, política de troca/devolução. Desta forma, é possível realizar a consulta/acompanhamento dos pedidos e suas respectivas informações.
+
+- Estratégia de entrega e políticas de envio
+
+Basear-se-á na integração de transporte e no gerenciamento de estoque, além de levar em consideração as políticas de envio - que pode variar de acordo com cada região e/ou lojista.
+
+- Estratégia de envio, docas e estoques
+
+Realizando o gerenciamento de estoque e contabilizando a entrada e saída nas docas, a plataforma integra produtos, custos e transportes visando a otimização do 'entra' e 'sai' de mercadorias.
+
+- Tarifas de envio, simulador de envio e gerenciar inventário
+
+A tarifa de envio pode variar a depender da região e do método de envio selecionado. A variação ocorrerá segundo critérios pré-estabelecidos da empresa vendedora. Após o cálculo da taxa de entrega, é possível simular o tempo de entrega e seu respectivo valor no lado do cliente. Além disso, o gerenciamento de inventário será utilizado para controlar o estoque dos produtos, garantindo maior controle por parte dos lojistas.
+
+- Configurações e pontos de retirada
+
+Com essa opção, é possível configurar locais e data/horário de funcionamento de estabelecimentos que estão aptos a receber a mercadoria do cliente e aguardá-los ali mesmo para efetuar a entrega ao destinatário. Por exemplo, quando compramos algum item e pedimos para retirar em uma loja física perto de nossa casa.
+
+## Módulo 6
+
+### Pagamentos
+
+- Transações, vale-compra e configurações
+
+Nessa seção temos acesso a todas as transações realizadas na loja, além dos detalhes de cada uma delas. Já a aba de vale-compra torna possível a criação de 'gift-cards', e até pode ajudar a resolver problemas em que o cliente não recebe seu produto por algum motivo, mas ainda deseja comprar algo na loja.
+
+Em configurações pode ser adicionado várias opções de pagamento e também estabelecer critérios de juros e tempo nas opções de pagamento parcelado. Também há a possibilidade de escolher diferentes 'intermediários' na verificação da compra.
+
+## Módulo 7
+
+### Marketplace
+
+- Sellers e integrações
+
+Os sellers são os vendedores, e hoje em dia há várias lojas cujo produto é vendido por um 'seller' diferente. Por exemplo, no site da Magazine Luiza há vários produtos que não são propriamente vendidos por ela, mas sim por um 'seller' afiliado a mesma. Essa aba ajuda na manutenção dos vendedores, garantindo um bom funcionamento do Marketplace.
+
+As integrações permitem a criação de 'links' do sistema do lojista com outros sistemas que facilitam o funcionamento das funções atribuídas ao site do lojista - por exemplo, os meios de pagamento citados no módulo anterior.
+
+## Módulo 8
+
+### Configurações da loja
+
+- Políticas Comerciais, checkout e busca
+
+As políticas comerciais são baseadas em termos regionais, desta forma, imaginemos que o site de uma grande marca seja global. Nesse site, há políticas comerciais diferentes a depender do país, então caso seja verão no Brasil, os produtos disponíveis na tela de início provavelmente serão produtos que se usam no verão. Em contraponto, em algum lugar do mundo será inverno, e nesse lugar a página inicial pode conter outras opções de produtos - que geralmente serão usadas no inverno.
+
+A aba de checkout possui pouca customização e está mais envolvida com o sistema de verificação e segurança da loja. Nessa parte, é possível adicionar campos de formulário e definir/colocar regras de pagamento.
+
+O sistema de busca disponibiliza palavras-chave na pesquisa dos produtos de uma loja, também apresenta a taxa de conversão após certa busca, etc. Também possibilita aprimorar a filtragem com base em sinônimos.
+
+- CMS, layour e configurações
+
+Em CMS - Content Management System - o lojista pode administrar o conteúdo da loja de maneira bem direta, ou seja, é quase uma forma de manutenção low/no-code. Então textos, imagens e outros elementos podem ser editados por um lojista sem que o mesmo necessariamente altere o código da plataforma de maneira direta.
+
+De forma auto-explicativa, o layout conta com designs/templates pré-definidos, mas também é possível personalizar os components de acordo com a peculiaridade de cada projeto.
+
+- CMS, loja, estilos e páginas
+
+A configuração da loja, através do título, meta-tags, imagens e url, afeta os motores de busca do google em relação à loja, então deve ser gerenciado com cuidado. Isto também está diretamente conectado com o tópico 'páginas'.
+
+Os estilos são padrões estabelecidos - que também podem ser modificados - que facilitam a customização por parte do lojista.
+
+- CMS, site editor
+
+Intuitivamente e de maneira certeira, você está certo se imaginou que o 'site editor' é uma maneira de fazer alterações em uma página sem necessariamente precisar escrever código em si. No exemplo apresentado em video, o conteúdo textual foi alterado, mas também é possível alterar imagens e muito mais.
+
+## Módulo 9
+
+### Cliente
+
+- Central de mensagens
+
+Auxilia o lojista na automatização do envio de emails para os clientes. É possível estabelecer um padrão à ser enviado para cada tipo de cliente, mas também pode-se utilizar um padrão para todos. As informações são basicamente textos - e variáveis vindas de um json - e imagens.
+
+- Master Data
+
+É um banco de dados onde armazena-se os dados dos clientes, facilitando o gerenciamento das informações como um todo. Portanto, é uma plataforma centralizada dos dados relacionados a empresa que possui quase todas as funções que qualquer sql query faria, mas de maneira mais intuitiva e simplificada.
