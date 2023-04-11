@@ -144,7 +144,7 @@ A aba de checkout possui pouca customização e está mais envolvida com o siste
 
 O sistema de busca disponibiliza palavras-chave na pesquisa dos produtos de uma loja, também apresenta a taxa de conversão após certa busca, etc. Também possibilita aprimorar a filtragem com base em sinônimos.
 
-- CMS, layour e configurações
+- CMS, layout e configurações
 
 Em CMS - Content Management System - o lojista pode administrar o conteúdo da loja de maneira bem direta, ou seja, é quase uma forma de manutenção low/no-code. Então textos, imagens e outros elementos podem ser editados por um lojista sem que o mesmo necessariamente altere o código da plataforma de maneira direta.
 
@@ -170,4 +170,4 @@ Auxilia o lojista na automatização do envio de emails para os clientes. É pos
 
 - Master Data
 
-É um banco de dados onde armazena-se os dados dos clientes, facilitando o gerenciamento das informações como um todo. Portanto, é uma plataforma centralizada dos dados relacionados a empresa que possui quase todas as funções que qualquer sql query faria, mas de maneira mais intuitiva e simplificada!
+É um banco de dados onde armazena-se os dados dos clientes, facilitando o gerenciamento das informações como um todo. Portanto, é uma plataforma centralizada dos dados relacionados a empresa que possui quase todas as funções que qualquer sql query faria, mas de maneira mais intuitiva e simplificada.
