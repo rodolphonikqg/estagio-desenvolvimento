@@ -170,4 +170,4 @@ Auxilia o lojista na automatização do envio de emails para os clientes. É pos
 
 - Master Data
 
-É um banco de dados onde armazena-se os dados dos clientes, facilitando o gerenciamento das informações como um todo. Portanto, é uma plataforma centralizada dos dados relacionados a empresa que possui quase todas as funções que qualquer sql query faria, mas de maneira mais intuitiva e simplificada.
+É um banco de dados onde armazena-se os dados dos clientes, facilitando o gerenciamento das informações como um todo. Portanto, é uma plataforma centralizada dos dados relacionados a empresa que possui quase todas as funções que qualquer sql query faria, mas de maneira mais intuitiva e simplificada!
