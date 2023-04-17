@@ -1,0 +1,484 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contact",
+      "menu-item#tel",
+      "menu-item#wpp",
+      "menu-item#email",
+      "menu-item#socials",
+      "social-networks"
+    ]
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Atendimento"
+      }
+    }
+  },
+  "menu-item#tel": {
+    "props": {
+      "id": "menu-item-telephone",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Telephone",
+        "text": "Telefone: +55 12 3456-7890"
+      }
+    }
+  },
+  "menu-item#wpp": {
+    "props": {
+      "id": "menu-item-wpp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Whatsapp",
+        "text": "Whatsapp: +55 01 2345-6789"
+      }
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-email",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Email",
+        "text": "Email: example@email.com.br"
+      }
+    }
+  },
+
+  "menu-item#socials": {
+    "props": {
+      "id": "menu-item-socials",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Socials",
+        "text": "Redes Sociais"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#help",
+      "menu-item#changes",
+      "menu-item#privacy-politics",
+      "menu-item#delivery-politics"
+    ]
+  },
+
+  "menu-item#help": {
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Help",
+        "text": "Ajuda e Suporte"
+      }
+    }
+  },
+
+  "menu-item#changes": {
+    "props": {
+      "id": "menu-item-changes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Changes",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+
+  "menu-item#privacy-politics": {
+    "props": {
+      "id": "menu-item-privacy-politics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Privacy Politics",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+
+  "menu-item#delivery-politics": {
+    "props": {
+      "id": "menu-item-delivery-politics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Delivery Politics",
+        "text": "Política de Entrega"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#atelie",
+      "menu-item#address",
+      "menu-item#address2"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-enxoval": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#enxoval",
+      "menu-item#about-enxoval"
+    ]
+  },
+
+  "menu-item#atelie": {
+    "props": {
+      "id": "menu-item-atelie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Our Atelie",
+        "text": "Nosso Ateliê BH"
+      }
+    }
+  },
+
+  "menu-item#address": {
+    "props": {
+      "id": "menu-item-address",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Address",
+        "text": "Rua Xyz Nº 012 Sala 34"
+      }
+    }
+  },
+
+  "menu-item#address2": {
+    "props": {
+      "id": "menu-item-address2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Address2",
+        "text": "Night City/CP - CEP: 05060-708"
+      }
+    }
+  },
+
+  "menu-item#enxoval": {
+    "props": {
+      "id": "menu-item-enxoval",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Enxoval",
+        "text": "Enxoval Merci"
+      }
+    }
+  },
+
+  "menu-item#about-enxoval": {
+    "props": {
+      "id": "menu-item-about-enxoval",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "About Enxoval",
+        "text": "Personalizar Enxoval"
+      }
+    }
+  },
+
+  "menu-item#wwe": {
+    "props": {
+      "id": "menu-item-wwe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Who We Are",
+        "text": "Quem Somos"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-institutional": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institutional",
+      "menu-item#tel",
+      "menu-item#club",
+      "menu-item#talk-with-us"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "wrapper--footer-mobile"
+    },
+    "children": [
+      "menu-item#contact-mobile",
+      "menu-item#institutional-mobile",
+      "menu-item#help-mobile",
+      "menu-item#atelie-mobile",
+      "menu-item#enxoval-mobile",
+      "menu-item#socials",
+      "social-networks"
+    ]
+  },
+
+  "menu-item#contact-mobile": {
+    "props": {
+      "id": "menu-item-category-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Contact",
+        "text": "Atendimento"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#contact"]
+  },
+  "vtex.menu@2.x:submenu.accordion#contact": {
+    "children": ["vtex.menu@2.x:menu#contact-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#contact-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#tel",
+      "menu-item#wpp",
+      "menu-item#email"
+    ]
+  },
+
+  "menu-item#institutional-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Institutional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institutional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institutional": {
+    "children": ["vtex.menu@2.x:menu#footer-institutional-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-institutional-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#wwe",
+      "menu-item#club",
+      "menu-item#talk-with-us"
+    ]
+  },
+
+  "menu-item#help-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Help",
+        "text": "Ajuda e Suporte"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#help"]
+  },
+  "vtex.menu@2.x:submenu.accordion#help": {
+    "children": ["vtex.menu@2.x:menu#footer-help-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-help-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#changes",
+      "menu-item#privacy-politics",
+      "menu-item#delivery-politics"
+    ]
+  },
+
+  "menu-item#atelie-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Our Atelie",
+        "text": "Nosso Ateliê BH"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#atelie"]
+  },
+  "vtex.menu@2.x:submenu.accordion#atelie": {
+    "children": ["vtex.menu@2.x:menu#footer-atelie-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-atelie-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#address",
+      "menu-item#address2"
+    ]
+  },
+
+  "menu-item#enxoval-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Enxoval",
+        "text": "Enxoval Merci"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#enxoval"]
+  },
+  "vtex.menu@2.x:submenu.accordion#enxoval": {
+    "children": ["vtex.menu@2.x:menu#footer-enxoval-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-enxoval-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-enxoval"
+    ]
+  },
+
+  "menu-item#institutional": {
+    "props": {
+      "id": "menu-item-category-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    }
+  },
+
+  "menu-item#club": {
+    "props": {
+      "id": "menu-item-club",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "Clube Merci",
+        "text": "Clube Merci"
+      }
+    }
+  },
+
+  "menu-item#talk-with-us": {
+    "props": {
+      "id": "menu-item-talk-with-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  }
+}

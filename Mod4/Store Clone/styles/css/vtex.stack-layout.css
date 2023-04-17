@@ -1,0 +1,24 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+.stackItem--custom-text, .stackItem--custom-button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.stackItem--custom-text {
+  height: 100%;
+}
+
+.stackItem--custom-button {
+  height: 150%;
+}

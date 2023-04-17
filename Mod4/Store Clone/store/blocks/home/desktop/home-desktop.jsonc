@@ -1,0 +1,224 @@
+{
+    "responsive-layout.desktop#home": {
+        "children": [
+            "list-context.image-list#banner",
+            "rich-text#category-title",
+            "flex-layout.row#category-images",
+            "rich-text#shelf-title",
+            "flex-layout.row#shelf",
+            "stack-layout#marriage",
+            "stack-layout#custom",
+            "rich-text#follow-us",
+            "flex-layout.row#merci-about-us",
+            "flex-layout.row#form"
+        ]
+    },
+    "list-context.image-list#banner": {
+        "children": [
+            "slider-layout#banner"
+        ],
+        "props": {
+            "height": 540,
+            "images": [
+                {
+                    "image": "assets/imgs/banners/banner1.png",
+                    "mobileImage": ""
+                },
+                {
+                    "image": "assets/imgs/banners/banner2.png",
+                    "mobileImage": ""
+                }
+            ]
+        }
+    },
+    "slider-layout#banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "phone": 1
+            },
+            "infinite": true
+        }
+    },
+    "rich-text#category-title": {
+        "props": {
+            "text": "### UM PRESENTE PARA CADA OCASIÃO",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#category-images": {
+        "children": [
+            "image#category-img1",
+            "image#category-img2",
+            "image#category-img3"
+        ],
+        "props": {
+            "height": 350,
+            "blockClass": "category-container"
+        }
+    },
+    "image#category-img1": {
+        "props": {
+            "src": "assets/imgs/banners/category1.png",
+            "maxHeight": 350
+        }
+    },
+    "image#category-img2": {
+        "props": {
+            "src": "assets/imgs/banners/category2.png",
+            "maxHeight": 350
+        }
+    },
+    "image#category-img3": {
+        "props": {
+            "src": "assets/imgs/banners/category3.png",
+            "maxHeight": 350
+        }
+    },
+    "rich-text#shelf-title": {
+        "props": {
+            "text": "### PRODUTOS EM DESTAQUE",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#shelf": {
+        "children": [
+            "list-context.product-list#products-shelf"
+        ]
+    },
+    "list-context.product-list#products-shelf": {
+        "blocks": [
+            "product-summary.shelf#products-shelf"
+        ],
+        "children": [
+            "slider-layout#products-slider"
+        ]
+    },
+    "product-summary.shelf#products-shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+    "slider-layout#products-slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly"
+        }
+    },
+    "stack-layout#marriage": {
+        "children": [
+            "image#marriage"
+        ]
+    },
+    "image#marriage": {
+        "props": {
+            "width": "100%",
+            "src": "assets/imgs/banners/banner3.png"
+        }
+    },
+    "stack-layout#custom": {
+        "children": [
+            "image#custom",
+            "rich-text#custom-text",
+            "link#custom-button"
+        ]
+    },
+    "image#custom": {
+        "props": {
+            "width": "100%",
+            "src": "assets/imgs/banners/banner4.png"
+        }
+    },
+    "rich-text#custom-text": {
+        "props": {
+            "blockClass": "custom-text",
+            "text": "Merci ready to go\n\nConheça os produtos que podem ser\npersonalizados em 3 dias úteis e\n enviados para todo Brasil."
+        }
+    },
+    "link#custom-button": {
+        "props": {
+            "blockClass": "custom-button",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "regular"
+            },
+            "href": "/",
+            "label": "IR PARA PRONTA ENTREGA"
+        }
+    },
+    "rich-text#follow-us": {
+        "props": {
+            "text": "#### SIGA-NOS @merciwithlove",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#merci-about-us": {
+        "children": [
+            "image#logo",
+            "rich-text#about-us-text"
+        ],
+        "props": {
+            "blockClass": "wrapper--about-us"
+        }
+    },
+    "image#logo": {
+        "props": {
+            "height": 100,
+            "src": "assets/imgs/logos/merci-logo.png"
+        }
+    },
+    "rich-text#about-us-text": {
+        "props": {
+            "blockClass": "about-us-text",
+            "text": "##### SOBRE A MARCA\nA MerciWithLove é uma marca de artigos de couro 100% natural em que tudo pode ser personalizado de acordo com o desejo de cada cliente.",
+            "textAlignment": "CENTER"
+        }
+    },
+    "flex-layout.row#form": {
+        "children": [
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "wrapper--form"
+        }
+    },
+    "newsletter-form": {
+        "children": [
+            "rich-text#newsletter-title",
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "wrapper--newsletter"
+        }
+    },
+    "rich-text#newsletter-title": {
+        "props": {
+            "blockClass": "newsletter-title-text",
+            "text": "![email](assets/imgs/icons/email.png) NEWSLETTER"
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "placeholderText": "Digite seu e-mail"
+        }
+    },
+    "newsletter-input-name": {
+        "props": {
+            "placeholderText": "Digite seu nome"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Cadastrar"
+        }
+    }
+}

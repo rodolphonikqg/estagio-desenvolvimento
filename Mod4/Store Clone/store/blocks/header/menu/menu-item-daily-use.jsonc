@@ -1,0 +1,166 @@
+{
+    "menu-item#daily-use": {
+        "props": {
+            "id": "menu-item-daily-use",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/#/",
+                "noFollow": false,
+                "tagTitle": "daily-use",
+                "text": "DIA A DIA"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#dbd"
+        ]
+    },
+    "vtex.menu@2.x:submenu#dbd": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#dbd"
+        ]
+    },
+    "vtex.menu@2.x:menu#dbd": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#dbd"
+        ]
+    },
+    "flex-layout.row#dbd": {
+        "children": [
+            "flex-layout.col#dbd-left",
+            "flex-layout.col#dbd-right"
+        ]
+    },
+    "flex-layout.col#dbd-left": {
+        "children": [
+            "menu-item#day-by-day",
+            "menu-item#stationery"
+        ]
+    },
+    "flex-layout.col#dbd-right": {
+        "children": [
+            "rich-text#dbd-right-title",
+            "vtex.menu@2.x:menu#dbd2",
+            "rich-text#dbd-right-custom-kit"
+        ]
+    },
+    "rich-text#dbd-right-title": {
+        "props": {
+            "text": "HOME"
+        }
+    },
+    "vtex.menu@2.x:menu#dbd2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#desk",
+            "menu-item#wellfare",
+            "menu-item#office",
+            "menu-item#lavabo"
+        ]
+    },
+    "rich-text#dbd-right-custom-kit": {
+        "props": {
+            "text": "Monte o seu Kit"
+        }
+    },
+    "menu-item#day-by-day": {
+        "props": {
+            "id": "menu-item-day-by-day",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Day by Day",
+                "text": "DIA A DIA"
+            }
+        }
+    },
+    "menu-item#stationery": {
+        "props": {
+            "id": "menu-item-stationery",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Stationery",
+                "text": "PAPELARIA"
+            }
+        }
+    },
+    "menu-item#desk": {
+        "props": {
+            "id": "menu-item-desk",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Desk",
+                "text": "Mesa"
+            }
+        }
+    },
+    "menu-item#wellfare": {
+        "props": {
+            "id": "menu-item-wellfare",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Wellfare",
+                "text": "Bem-Estar"
+            }
+        }
+    },
+    "menu-item#office": {
+        "props": {
+            "id": "menu-item-office",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Office",
+                "text": "Escritório"
+            }
+        }
+    },
+    "menu-item#lavabo": {
+        "props": {
+            "id": "menu-item-lavabo",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lavabo",
+                "text": "Lavabo"
+            }
+        }
+    }
+}

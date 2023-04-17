@@ -1,0 +1,166 @@
+{
+    "menu-item#for-her": {
+        "props": {
+            "id": "menu-item-for-her",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/#/",
+                "noFollow": false,
+                "tagTitle": "Home & Decor",
+                "text": "PARA ELA"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#for-her"
+        ]
+    },
+    "vtex.menu@2.x:submenu#for-her": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#for-her"
+        ]
+    },
+    "vtex.menu@2.x:menu#for-her": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#for-her"
+        ]
+    },
+    "flex-layout.row#for-her": {
+        "children": [
+            "flex-layout.col#for-her-left",
+            "flex-layout.col#for-her-right"
+        ]
+    },
+    "flex-layout.col#for-her-left": {
+        "children": [
+            "menu-item#for-her-backpack",
+            "menu-item#for-her-accessories"
+        ]
+    },
+    "flex-layout.col#for-her-right": {
+        "children": [
+            "rich-text#for-her-right-title",
+            "vtex.menu@2.x:menu#for-her2",
+            "rich-text#for-her-right-custom-kit"
+        ]
+    },
+    "rich-text#for-her-right-title": {
+        "props": {
+            "text": "BOLSAS"
+        }
+    },
+    "vtex.menu@2.x:menu#for-her2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#for-her-handbag",
+            "menu-item#for-her-backpack2",
+            "menu-item#for-her-alcas",
+            "menu-item#for-her-key-chain"
+        ]
+    },
+    "rich-text#for-her-right-custom-kit": {
+        "props": {
+            "text": "Monte o seu Kit"
+        }
+    },
+    "menu-item#for-her-backpack": {
+        "props": {
+            "id": "menu-item-for-her-backpack",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Backpack",
+                "text": "BOLSAS"
+            }
+        }
+    },
+    "menu-item#for-her-accessories": {
+        "props": {
+            "id": "menu-item-for-her-accessories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Accessories",
+                "text": "ACESSÓRIOS"
+            }
+        }
+    },
+    "menu-item#for-her-handbag": {
+        "props": {
+            "id": "menu-item-for-her-handbag",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Handbag",
+                "text": "Bolsas"
+            }
+        }
+    },
+    "menu-item#for-her-backpack2": {
+        "props": {
+            "id": "menu-item-for-her-backpack2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Backpack2",
+                "text": "Mochilas"
+            }
+        }
+    },
+    "menu-item#for-her-alcas": {
+        "props": {
+            "id": "menu-item-for-her-alcas",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Alcas",
+                "text": "Alças"
+            }
+        }
+    },
+    "menu-item#for-her-key-chain": {
+        "props": {
+            "id": "menu-item-for-her-key-chain",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Key Chain",
+                "text": "Pingentes e Chaveiros"
+            }
+        }
+    }
+}

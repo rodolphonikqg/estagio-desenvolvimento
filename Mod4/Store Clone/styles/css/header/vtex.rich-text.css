@@ -1,0 +1,35 @@
+.container--text__top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+}
+
+.paragraph--text__top-bar {
+    font-size: 12px;
+    color: #FFF;
+    margin: 0;
+}
+
+.wrapper--custom-text {
+    color: #FFF;
+}
+
+.wrapper--about-us-text {
+    font-size: .67rem;
+}
+
+.paragraph--newsletter-title-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.paragraph--footer-infos {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper--footer {
+    padding: 0;
+}

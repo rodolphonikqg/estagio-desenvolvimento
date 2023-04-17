@@ -1,0 +1,208 @@
+{
+    "responsive-layout.phone#home": {
+        "children": [
+            "list-context.image-list#banner-mobile",
+            "rich-text#category-title-mobile",
+            "list-context.image-list#category-mobile",
+            "rich-text#shelf-title-mobile",
+            "flex-layout.row#shelf-mobile",
+            "stack-layout#marriage-mobile",
+            "stack-layout#custom-mobile",
+            "rich-text#follow-us-mobile",
+            "flex-layout.row#merci-about-us-mobile",
+            "flex-layout.row#form-mobile"
+        ]
+    },
+    "list-context.image-list#banner-mobile": {
+        "children": [
+            "slider-layout#banner"
+        ],
+        "props": {
+            "height": 215,
+            "images": [
+                {
+                    "mobileImage": "assets/imgs/banners/banner1.png"
+                },
+                {
+                    "mobileImage": "assets/imgs/banners/banner2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#banner": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "desktopOnly"
+        }
+    },
+    "rich-text#category-title-mobile": {
+        "props": {
+            "text": "###### UM PRESENTE PARA CADA OCASIÃO",
+            "textPosition": "CENTER"
+        }
+    },
+    "list-context.image-list#category-mobile": {
+        "children": [
+            "slider-layout#category"
+        ],
+        "props": {
+            "height": 350,
+            "images": [
+                {
+                    "mobileImage": "assets/imgs/banners/category1.png"
+                },
+                {
+                    "mobileImage": "assets/imgs/banners/category2.png"
+                },
+                {
+                    "mobileImage": "assets/imgs/banners/category3.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#category": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 2500
+            }
+        }
+    },
+    "rich-text#shelf-title-mobile": {
+        "props": {
+            "text": "###### PRODUTOS EM DESTAQUE",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#shelf-mobile": {
+        "children": [
+            "list-context.product-list#products-shelf"
+        ]
+    },
+    "list-context.product-list#products-shelf": {
+        "blocks": [
+            "product-summary.shelf#products-shelf"
+        ],
+        "children": [
+            "slider-layout#products-slider"
+        ]
+    },
+    "product-summary.shelf#products-shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price"
+        ]
+    },
+    "slider-layout#products-slider": {
+        "props": {
+            "itemsPerPage": {
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always"
+        }
+    },
+    "stack-layout#marriage-mobile": {
+        "children": [
+            "image#marriage"
+        ]
+    },
+    "image#marriage": {
+        "props": {
+            "height": 275,
+            "width": "100%",
+            "src": "assets/imgs/banners/banner3.png"
+        }
+    },
+    "stack-layout#custom-mobile": {
+        "children": [
+            "image#custom"
+        ]
+    },
+    "image#custom": {
+        "props": {
+            "width": "100%",
+            "src": "assets/imgs/banners/banner4.png"
+        }
+    },
+    "rich-text#follow-us-mobile": {
+        "props": {
+            "text": "#### SIGA-NOS @merciwithlove",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#merci-about-us-mobile": {
+        "children": [
+            "image#logo",
+            "rich-text#about-us-text"
+        ],
+        "props": {
+            "blockClass": "wrapper--about-us"
+        }
+    },
+    "image#logo": {
+        "props": {
+            "height": 100,
+            "src": "assets/imgs/logos/merci-logo.png"
+        }
+    },
+    "rich-text#about-us-text": {
+        "props": {
+            "blockClass": "about-us-text",
+            "text": "##### SOBRE A MARCA\nA MerciWithLove é uma marca de artigos de couro 100% natural em que tudo pode ser personalizado de acordo com o desejo de cada cliente.",
+            "textAlignment": "CENTER"
+        }
+    },
+    "flex-layout.row#form-mobile": {
+        "children": [
+            "newsletter-form"
+        ],
+        "props": {
+            "blockClass": "wrapper--form"
+        }
+    },
+    "newsletter-form": {
+        "children": [
+            "rich-text#newsletter-title",
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "wrapper--newsletter"
+        }
+    },
+    "rich-text#newsletter-title": {
+        "props": {
+            "blockClass": "newsletter-title-text",
+            "text": "![email](assets/imgs/icons/email.png) NEWSLETTER"
+        }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "placeholderText": "Digite seu e-mail"
+        }
+    },
+    "newsletter-input-name": {
+        "props": {
+            "placeholderText": "Digite seu nome"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Cadastrar"
+        }
+    }
+}

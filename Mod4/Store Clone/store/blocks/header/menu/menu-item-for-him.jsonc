@@ -1,0 +1,166 @@
+{
+    "menu-item#for-him": {
+        "props": {
+            "id": "menu-item-for-him",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/#/",
+                "noFollow": false,
+                "tagTitle": "For Him",
+                "text": "PARA ELE"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#for-him"
+        ]
+    },
+    "vtex.menu@2.x:submenu#for-him": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#for-him"
+        ]
+    },
+    "vtex.menu@2.x:menu#for-him": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#for-him"
+        ]
+    },
+    "flex-layout.row#for-him": {
+        "children": [
+            "flex-layout.col#for-him-left",
+            "flex-layout.col#for-him-right"
+        ]
+    },
+    "flex-layout.col#for-him-left": {
+        "children": [
+            "menu-item#for-him-accessories",
+            "menu-item#for-him-fun"
+        ]
+    },
+    "flex-layout.col#for-him-right": {
+        "children": [
+            "rich-text#for-him-right-title",
+            "vtex.menu@2.x:menu#for-him2",
+            "rich-text#for-him-right-custom-kit"
+        ]
+    },
+    "rich-text#for-him-right-title": {
+        "props": {
+            "text": "ACESSÓRIOS"
+        }
+    },
+    "vtex.menu@2.x:menu#for-him2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#for-him-necessairies",
+            "menu-item#for-him-acc-for-drinks",
+            "menu-item#for-him-game-cases",
+            "menu-item#for-him-key-chain"
+        ]
+    },
+    "rich-text#for-him-right-custom-kit": {
+        "props": {
+            "text": "Monte o seu Kit"
+        }
+    },
+    "menu-item#for-him-fun": {
+        "props": {
+            "id": "menu-item-for-him-fun",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Fun",
+                "text": "LAZER"
+            }
+        }
+    },
+    "menu-item#for-him-accessories": {
+        "props": {
+            "id": "menu-item-for-him-accessories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Accessories",
+                "text": "ACESSÓRIOS"
+            }
+        }
+    },
+    "menu-item#for-him-necessairies": {
+        "props": {
+            "id": "menu-item-for-him-necessairies",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Necessairies",
+                "text": "Necessairies"
+            }
+        }
+    },
+    "menu-item#for-him-acc-for-drinks": {
+        "props": {
+            "id": "menu-item-for-him-acc-for-drinks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Acc For Drinks",
+                "text": "Acessórios para Bebidas"
+            }
+        }
+    },
+    "menu-item#for-him-game-cases": {
+        "props": {
+            "id": "menu-item-for-him-game-cases",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Game Cases",
+                "text": "Case para Jogos"
+            }
+        }
+    },
+    "menu-item#for-him-key-chain": {
+        "props": {
+            "id": "menu-item-for-him-key-chain",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Key Chain",
+                "text": "Chaveiros"
+            }
+        }
+    }
+}

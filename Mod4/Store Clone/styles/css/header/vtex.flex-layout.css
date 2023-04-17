@@ -1,0 +1,33 @@
+.flexRow--wrapper--top-bar {
+    background: #73708B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+}
+
+.flexRowContent--wrapper--about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/imgs/backgrounds/merci-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+}
+
+.flexRow--wrapper--about-us, .flexRow--wrapper--form, .flexRow--payment-methods, .flexRow--credits {
+    background: #F0F0F0;
+}
+
+.flexRowContent--footer-icons {
+    display: flex;
+    justify-content: center;
+    max-width: 225px;
+    margin: 0 auto;
+}
+
+.flexRowContent--main-header {
+    background: #FFF;
+}

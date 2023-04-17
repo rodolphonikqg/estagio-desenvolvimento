@@ -1,0 +1,182 @@
+{
+    "menu-item#travels": {
+        "props": {
+            "id": "menu-item-travels",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Travels",
+                "text": "VIAGENS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#travels"
+        ]
+    },
+    "vtex.menu@2.x:submenu#travels": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#travels"
+        ]
+    },
+    "vtex.menu@2.x:menu#travels": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#travels"
+        ]
+    },
+    "flex-layout.row#travels": {
+        "children": [
+            "flex-layout.col#travels-left",
+            "flex-layout.col#travels-right"
+        ]
+    },
+    "flex-layout.col#travels-left": {
+        "children": [
+            "menu-item#travels-feminine",
+            "menu-item#travels-masculine"
+        ]
+    },
+    "flex-layout.col#travels-right": {
+        "children": [
+            "rich-text#travels-right-title",
+            "vtex.menu@2.x:menu#travels2",
+            "rich-text#travels-right-custom-kit"
+        ]
+    },
+    "rich-text#travels-right-title": {
+        "props": {
+            "text": "FEMININOS"
+        }
+    },
+    "vtex.menu@2.x:menu#travels2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#travels-wallet",
+            "menu-item#travels-passport",
+            "menu-item#travels-jewelry-storage",
+            "menu-item#travels-backpack-pin",
+            "menu-item#travels-necessaires"
+        ]
+    },
+    "rich-text#travels-right-custom-kit": {
+        "props": {
+            "text": "Monte o seu Kit"
+        }
+    },
+    "menu-item#travels-feminine": {
+        "props": {
+            "id": "menu-item-travels-feminine",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Feminine",
+                "text": "FEMININO"
+            }
+        }
+    },
+    "menu-item#travels-masculine": {
+        "props": {
+            "id": "menu-item-travels-masculine",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Masculine",
+                "text": "MASCULINO"
+            }
+        }
+    },
+    "menu-item#travels-wallet": {
+        "props": {
+            "id": "menu-item-travels-wallet",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Wallet",
+                "text": "Carteira"
+            }
+        }
+    },
+    "menu-item#travels-passport": {
+        "props": {
+            "id": "menu-item-travels-passport",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Passport",
+                "text": "Passaporte"
+            }
+        }
+    },
+    "menu-item#travels-jewelry-storage": {
+        "props": {
+            "id": "menu-item-travels-jewelry-storage",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Jewelry Storage",
+                "text": "Porta jóias"
+            }
+        }
+    },
+    "menu-item#travels-backpack-pin": {
+        "props": {
+            "id": "menu-item-travels-backpack-pin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pin",
+                "text": "Tag de malas"
+            }
+        }
+    },
+    "menu-item#travels-necessaires": {
+        "props": {
+            "id": "menu-item-travels-necessaires",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Necessaires",
+                "text": "Necessaires"
+            }
+        }
+    }
+}

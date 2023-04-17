@@ -1,0 +1,28 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.acceptedPaymentMethodContainer {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.wrapper--footer-infos {
+  margin: 0;
+  padding: 0;
+}
+
+.socialNetworkImage {
+  background: #FFF;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+}

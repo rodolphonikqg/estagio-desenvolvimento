@@ -1,0 +1,13 @@
+.styledLinkContent {
+    color: black;
+}
+
+.menuContainer--wrapper--footer-mobile {
+    background: #73708B;
+    width: 100%;
+    padding: 27px 20px 24px;
+}
+
+.accordionIcon {
+    color: #FFF;
+}

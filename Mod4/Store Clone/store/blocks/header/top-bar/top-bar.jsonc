@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#top-bar": {
+        "props": {
+            "blockClass": [
+                "wrapper--top-bar"
+            ]
+        },
+        "children": [
+            "rich-text#produtos-text",
+            "rich-text#juros-text"
+        ]
+    },
+    "rich-text#produtos-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar"
+            ],
+            "text": "PRODUTOS PERSONALIZADOS"
+        }
+    },
+    "rich-text#juros-text": {
+        "props": {
+            "blockClass": [
+                "text__top-bar"
+            ],
+            "text": "EM ATÉ 3X SEM JUROS"
+        }
+    }
+}
