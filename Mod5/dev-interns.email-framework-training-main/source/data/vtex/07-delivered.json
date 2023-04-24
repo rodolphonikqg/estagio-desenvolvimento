@@ -1,0 +1,1002 @@
+{
+	"package": {
+		"items": [
+			{
+				"itemIndex": 0,
+				"quantity": 1,
+				"price": 108000,
+				"description": null,
+				"unitMultiplier": 0
+			}
+		],
+		"courier": "Transportadora 2",
+		"invoiceNumber": "500380-0001",
+		"invoiceValue": 108000,
+		"invoiceUrl": "https://urldanota.com.br/500380-0001",
+		"issuanceDate": "2020-05-05T03:00:00Z",
+		"trackingNumber": "123456",
+		"invoiceKey": "500380-0001",
+		"trackingUrl": "https://rastreio.com.br/500380-0001",
+		"embeddedInvoice": "",
+		"type": "Output",
+		"courierStatus": {
+			"status": "unknown",
+			"finished": true,
+			"deliveredDate": "2020-05-05T17:34:36.8917904Z",
+			"data": []
+		},
+		"cfop": null,
+		"restitutions": {},
+		"volumes": 0
+	},
+	"subjectItemAttachment": {
+		"item": "LAVADORA SAMSUNG 1K ...",
+		"totalItems": 1
+	},
+	"cancellationReason": null,
+	"items": [
+		{
+			"additionalInfo": {
+				"dimension": {
+					"cubicweight": 1,
+					"height": 200,
+					"length": 200,
+					"weight": 1000,
+					"width": 100
+				},
+				"categoriesIds": "/1/",
+				"productClusterId": "139",
+				"commercialConditionId": "1",
+				"brandName": "Integração",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "310118456",
+			"priceTable": null,
+			"priceValidUntil": "2021-05-05T17:04:15.8031287Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"costPrice": null,
+			"uniqueId": "02DF2B6EAE7048FBA9B98D3461AD80DC",
+			"id": "310118456",
+			"productId": "4231",
+			"productRefId": "982478W-9707328",
+			"refId": "9707328",
+			"ean": "8186651823426",
+			"name": "LAVADORA SAMSUNG 1K 10KG",
+			"skuName": "LAVADORA SAMSUNG 1K 10KG",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"priceDefinitions": null,
+			"price": 120000,
+			"listPrice": 120000,
+			"manualPrice": null,
+			"sellingPrice": 108000,
+			"orderRewardStatus": null,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": "2020-04-30T00:00:00",
+			"productCategoryIds": "/1/",
+			"productCategories": {
+				"1": "1 - Integração"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "http://carrefourbrqa.vteximg.com.br/arquivos/ids/156065-55-55/9707328-9707328_1.jpg?v=637205959508530000",
+			"detailUrl": "/lavadora-samsung-1k-10kg-9707328/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [
+				{
+					"name": "discount@price-d1999f26-6333-4afb-bab3-27d0b746ec19#1f1835dd-cf4c-4a6c-9a1e-387d1b17c0a4",
+					"value": -12000,
+					"rawValue": -120,
+					"isPercentual": false,
+					"identifier": "d1999f26-6333-4afb-bab3-27d0b746ec19"
+				}
+			],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": ""
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=carrefourbrqa",
+			"id": "externo",
+			"name": "Carrefour Comércio e Indústria Ltda",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "32f7ff47584148c2b8c78ac6ebc1d260",
+	"sequence": "500380",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "5c6bc708-c0ce-4483-9ec8-9dbeb918203b",
+	"hostName": "carrefourbrqa",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1030170272335-01",
+	"orderGroup": "1030170272335",
+	"state": "invoiced",
+	"isCheckedIn": false,
+	"sellerOrderId": "00-1030170272335-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 153500,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "Total dos Itens",
+			"value": 170000
+		},
+		{
+			"id": "Discounts",
+			"name": "Total dos Descontos",
+			"value": -17000
+		},
+		{
+			"id": "Shipping",
+			"name": "Total do Frete",
+			"value": 500
+		},
+		{
+			"id": "Tax",
+			"name": "Total da Taxa",
+			"value": 0
+		}
+	],
+	"clientProfileData": {
+		"email": "ba0f355dc4d54bb9ac84934d0bd61a20@ct.vtex.com.br",
+		"firstName": "Victor",
+		"lastName": "Almeida",
+		"document": "43066927873",
+		"documentType": "cpf",
+		"phone": "+5511985004168",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"profileCompleteOnLoading": true,
+		"profileErrorOnLoading": false,
+		"customerClass": null
+	},
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [
+			{
+				"id": "d1999f26-6333-4afb-bab3-27d0b746ec19",
+				"name": "Promoção Desconto á vista",
+				"featured": false,
+				"description": null,
+				"matchedParameters": {
+					"paymentMethodId": "202"
+				},
+				"additionalInfo": null
+			}
+		],
+		"teaser": []
+	},
+	"shippingData": {
+		"address": {
+			"addressType": "residential",
+			"receiverName": "Victor Almeida",
+			"addressId": "4740434751471",
+			"isDisposable": false,
+			"postalCode": "04814-620",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "BRA",
+			"street": "Rua Bergson Gurjão Farias",
+			"number": "64",
+			"neighborhood": "Jardim Guanhembu",
+			"complement": null,
+			"reference": null,
+			"geoCoordinates": [
+				-46.68054962158203,
+				-23.72981071472168
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"selectedSla": "Normal",
+				"selectedDeliveryChannel": "delivery",
+				"addressId": "4740434751471",
+				"slas": [
+					{
+						"id": "Normal",
+						"deliveryChannel": "delivery",
+						"name": "Normal",
+						"deliveryIds": [
+							{
+								"courierId": "1",
+								"warehouseId": "963_VIRTUAL",
+								"dockId": "1",
+								"courierName": "Transportadora 2",
+								"quantity": 1,
+								"totalListPrice": 0
+							}
+						],
+						"shippingEstimate": "6bd",
+						"shippingEstimateDate": "2020-05-13T17:22:56.0694461Z",
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 495,
+						"listPrice": 495,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": 0,
+						"polygonName": null,
+						"transitTime": "3bd"
+					},
+					{
+						"id": "Agendada",
+						"deliveryChannel": "delivery",
+						"name": "Agendada",
+						"deliveryIds": [
+							{
+								"courierId": "1abb514",
+								"warehouseId": "963_VIRTUAL",
+								"dockId": "1",
+								"courierName": "Transportadora Agendada",
+								"quantity": 1,
+								"totalListPrice": 0
+							}
+						],
+						"shippingEstimate": "5bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [
+							{
+								"startDateUtc": "2020-05-12T00:00:00+00:00",
+								"endDateUtc": "2020-05-12T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-12T12:00:00+00:00",
+								"endDateUtc": "2020-05-12T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-12T17:00:00+00:00",
+								"endDateUtc": "2020-05-12T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-13T00:00:00+00:00",
+								"endDateUtc": "2020-05-13T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-13T12:00:00+00:00",
+								"endDateUtc": "2020-05-13T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-13T17:00:00+00:00",
+								"endDateUtc": "2020-05-13T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-14T00:00:00+00:00",
+								"endDateUtc": "2020-05-14T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-14T12:00:00+00:00",
+								"endDateUtc": "2020-05-14T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-14T17:00:00+00:00",
+								"endDateUtc": "2020-05-14T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-15T00:00:00+00:00",
+								"endDateUtc": "2020-05-15T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-15T12:00:00+00:00",
+								"endDateUtc": "2020-05-15T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-15T17:00:00+00:00",
+								"endDateUtc": "2020-05-15T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-16T00:00:00+00:00",
+								"endDateUtc": "2020-05-16T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-18T00:00:00+00:00",
+								"endDateUtc": "2020-05-18T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-18T12:00:00+00:00",
+								"endDateUtc": "2020-05-18T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-18T17:00:00+00:00",
+								"endDateUtc": "2020-05-18T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-19T00:00:00+00:00",
+								"endDateUtc": "2020-05-19T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-19T12:00:00+00:00",
+								"endDateUtc": "2020-05-19T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-19T17:00:00+00:00",
+								"endDateUtc": "2020-05-19T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-20T00:00:00+00:00",
+								"endDateUtc": "2020-05-20T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-20T12:00:00+00:00",
+								"endDateUtc": "2020-05-20T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-20T17:00:00+00:00",
+								"endDateUtc": "2020-05-20T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-21T00:00:00+00:00",
+								"endDateUtc": "2020-05-21T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-21T12:00:00+00:00",
+								"endDateUtc": "2020-05-21T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-21T17:00:00+00:00",
+								"endDateUtc": "2020-05-21T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-22T00:00:00+00:00",
+								"endDateUtc": "2020-05-22T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-22T12:00:00+00:00",
+								"endDateUtc": "2020-05-22T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-22T17:00:00+00:00",
+								"endDateUtc": "2020-05-22T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-23T00:00:00+00:00",
+								"endDateUtc": "2020-05-23T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-25T00:00:00+00:00",
+								"endDateUtc": "2020-05-25T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-25T12:00:00+00:00",
+								"endDateUtc": "2020-05-25T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-25T17:00:00+00:00",
+								"endDateUtc": "2020-05-25T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							}
+						],
+						"deliveryWindow": null,
+						"price": 990,
+						"listPrice": 990,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": 0,
+						"polygonName": null,
+						"transitTime": "2bd"
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"itemId": "310118456",
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					}
+				]
+			},
+			{
+				"itemIndex": 1,
+				"selectedSla": "Normal",
+				"selectedDeliveryChannel": "delivery",
+				"addressId": "4740434751471",
+				"slas": [
+					{
+						"id": "Normal",
+						"deliveryChannel": "delivery",
+						"name": "Normal",
+						"deliveryIds": [
+							{
+								"courierId": "1",
+								"warehouseId": "963_1",
+								"dockId": "1",
+								"courierName": "Transportadora 2",
+								"quantity": 1,
+								"totalListPrice": 0
+							}
+						],
+						"shippingEstimate": "6bd",
+						"shippingEstimateDate": "2020-05-13T17:22:56.0694461Z",
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 5,
+						"listPrice": 5,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": 0,
+						"polygonName": null,
+						"transitTime": "3bd"
+					},
+					{
+						"id": "Agendada",
+						"deliveryChannel": "delivery",
+						"name": "Agendada",
+						"deliveryIds": [
+							{
+								"courierId": "1abb514",
+								"warehouseId": "963_1",
+								"dockId": "1",
+								"courierName": "Transportadora Agendada",
+								"quantity": 1,
+								"totalListPrice": 0
+							}
+						],
+						"shippingEstimate": "5bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [
+							{
+								"startDateUtc": "2020-05-12T00:00:00+00:00",
+								"endDateUtc": "2020-05-12T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-12T12:00:00+00:00",
+								"endDateUtc": "2020-05-12T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-12T17:00:00+00:00",
+								"endDateUtc": "2020-05-12T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-13T00:00:00+00:00",
+								"endDateUtc": "2020-05-13T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-13T12:00:00+00:00",
+								"endDateUtc": "2020-05-13T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-13T17:00:00+00:00",
+								"endDateUtc": "2020-05-13T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-14T00:00:00+00:00",
+								"endDateUtc": "2020-05-14T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-14T12:00:00+00:00",
+								"endDateUtc": "2020-05-14T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-14T17:00:00+00:00",
+								"endDateUtc": "2020-05-14T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-15T00:00:00+00:00",
+								"endDateUtc": "2020-05-15T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-15T12:00:00+00:00",
+								"endDateUtc": "2020-05-15T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-15T17:00:00+00:00",
+								"endDateUtc": "2020-05-15T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-16T00:00:00+00:00",
+								"endDateUtc": "2020-05-16T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-18T00:00:00+00:00",
+								"endDateUtc": "2020-05-18T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-18T12:00:00+00:00",
+								"endDateUtc": "2020-05-18T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-18T17:00:00+00:00",
+								"endDateUtc": "2020-05-18T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-19T00:00:00+00:00",
+								"endDateUtc": "2020-05-19T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-19T12:00:00+00:00",
+								"endDateUtc": "2020-05-19T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-19T17:00:00+00:00",
+								"endDateUtc": "2020-05-19T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-20T00:00:00+00:00",
+								"endDateUtc": "2020-05-20T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-20T12:00:00+00:00",
+								"endDateUtc": "2020-05-20T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-20T17:00:00+00:00",
+								"endDateUtc": "2020-05-20T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-21T00:00:00+00:00",
+								"endDateUtc": "2020-05-21T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-21T12:00:00+00:00",
+								"endDateUtc": "2020-05-21T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-21T17:00:00+00:00",
+								"endDateUtc": "2020-05-21T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-22T00:00:00+00:00",
+								"endDateUtc": "2020-05-22T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-22T12:00:00+00:00",
+								"endDateUtc": "2020-05-22T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-22T17:00:00+00:00",
+								"endDateUtc": "2020-05-22T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-23T00:00:00+00:00",
+								"endDateUtc": "2020-05-23T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-25T00:00:00+00:00",
+								"endDateUtc": "2020-05-25T11:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-25T12:00:00+00:00",
+								"endDateUtc": "2020-05-25T16:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							},
+							{
+								"startDateUtc": "2020-05-25T17:00:00+00:00",
+								"endDateUtc": "2020-05-25T20:59:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							}
+						],
+						"deliveryWindow": null,
+						"price": 10,
+						"listPrice": 10,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": 0,
+						"polygonName": null,
+						"transitTime": "2bd"
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"itemId": "123343",
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					}
+				]
+			}
+		],
+		"selectedAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "Victor Almeida",
+				"addressId": "4740434751471",
+				"isDisposable": false,
+				"postalCode": "04814-620",
+				"city": "São Paulo",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Rua Bergson Gurjão Farias",
+				"number": "64",
+				"neighborhood": "Jardim Guanhembu",
+				"complement": null,
+				"reference": null,
+				"geoCoordinates": [
+					-46.68054962158203,
+					-23.72981071472168
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "Victor Almeida",
+				"addressId": "4740434751471",
+				"isDisposable": false,
+				"postalCode": "04814-620",
+				"city": "São Paulo",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Rua Bergson Gurjão Farias",
+				"number": "64",
+				"neighborhood": "Jardim Guanhembu",
+				"complement": null,
+				"reference": null,
+				"geoCoordinates": [
+					-46.68054962158203,
+					-23.72981071472168
+				]
+			}
+		],
+		"pickupPoints": []
+	},
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "AFACF84517164138B884D98AB460FE8D",
+				"merchantName": "CARREFOURBRQA",
+				"payments": [
+					{
+						"id": "F39A2DE3397D4AEB936D620C0144C9E4",
+						"paymentSystem": "202",
+						"paymentSystemName": "Promissória Carrefour - no self-auth",
+						"value": 153500,
+						"installments": 1,
+						"connectorResponses": {},
+						"referenceValue": 153500,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"koinUrl": null,
+						"tid": null,
+						"redemptionCode": null,
+						"giftCardId": null,
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"group": "promissory",
+						"dueDate": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null
+					}
+				],
+				"sharedTransaction": false
+			}
+		]
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"invoiceData": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": null,
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "ad797f0038cd4681bd1536fbce786ec5@ct.vtex.com.br",
+	"creationDate": "2020-05-05T17:04:34.9798699Z",
+	"lastChange": "2020-05-05T17:32:30.5109044Z",
+	"timeZoneCreationDate": "2020-05-05T14:04:34.9798699",
+	"timeZoneLastChange": "2020-05-05T14:32:30.5109044",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "carrefourbrqa",
+		"AccountName": "carrefourbrqa",
+		"Cnpj": "99999999999999",
+		"Id": "e051e15b-745e-47d0-beea-5a1c01a233d5",
+		"IsActive": true,
+		"IsOperating": false,
+		"OperationDate": null,
+		"CompanyName": "Chopp Brahma.",
+		"TradingName": "Chopp Brahma.",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licences": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex"
+	}
+}

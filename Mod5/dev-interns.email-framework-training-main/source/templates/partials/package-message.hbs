@@ -1,0 +1,36 @@
+<!-- for each item in package -->
+{{#each items}}
+  <!-- print SLA info just one time at the top -->
+  {{#compare @index '==' 0}}
+    <!-- compare order's items to package items -->
+    {{#each ../../../../items}}
+      {{#eq id ../itemId}}
+          <div class="bg-light-gray pa3 mw6 mv3 ba br2 b--moon-gray">
+            {{#compare ../selectedDeliveryChannel "!=" "pickup-in-point"}}
+              <h4 class="fontReset lh-title custom-red">Previsão de entrega</h4>
+            {{/compare}}
+            {{#compare ../selectedDeliveryChannel "==" "pickup-in-point"}}
+                <h4 class="fontReset lh-title custom-red">Data de retirada</h4>
+            {{/compare}}
+            <!-- Scheduled shipping -->
+            {{#if ../deliveryWindow}}
+              <!-- partial:shipping-estimate/scheduled.hbs --><!-- partial -->
+            {{else}}
+              <!-- show info for estimate range or date -->
+              {{#if ../shippingEstimateDate}}
+                <!-- partial:shipping-estimate/date.hbs --><!-- partial -->
+              {{else}}
+                <!-- partial:shipping-estimate/range.hbs --><!-- partial -->
+              {{/if}}
+            {{/if}}
+          </div>
+      {{/eq}}
+    {{/each}}
+  {{/compare}}
+  <!-- back to items list -->
+{{/each}}
+<p class="smallText mw6">
+  Fica a dica! Se quiser trocar o endereço, você precisa cancelar o pedido e comprar novamente com o
+  endereço correto
+</p>
+<!-- partial:items.hbs --><!-- partial -->

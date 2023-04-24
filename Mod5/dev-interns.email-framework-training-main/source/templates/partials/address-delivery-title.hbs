@@ -1,0 +1,21 @@
+{{#compare items.0.selectedDeliveryChannel '==' null}}
+  <div class="bg-light-gray pa3 mw6 mb3 ba br2 b--moon-gray">
+        <img class="pa1 db" src="http://carrefourbr.vteximg.com.br/arquivos/et-receba-txt.png"
+          alt="Receba em casa" />
+    <p class="mt1 mb3">((i18n.shipping.delivery))</p>
+
+    <!-- partial:address-delivery-info.hbs --><!-- partial -->
+
+  </div>
+{{/compare}}
+
+{{#eq items.0.selectedDeliveryChannel "delivery"}}
+  <div class="bg-light-gray pa3 mw6 mb3 ba br2 b--moon-gray">
+        <img class="pa1 db" src="http://carrefourbr.vteximg.com.br/arquivos/et-receba-txt.png"
+          alt="Receba em casa" />
+    <p class="mt1 mb3">((i18n.shipping.delivery))</p>
+
+    <!-- partial:address-delivery-info.hbs --><!-- partial -->
+
+  </div>
+{{/eq}}

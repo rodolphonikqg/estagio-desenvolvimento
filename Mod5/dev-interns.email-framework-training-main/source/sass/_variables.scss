@@ -1,0 +1,56 @@
+/**
+ * Variables (_variables.scss)
+ */
+
+/* ----- Colors ----- */
+//custom
+$link-color-light: #2e8cf6;
+$link-color: #1e5bc6;
+$gray-color: #666666;
+$bold-color: #333333;
+
+// General
+$color-white: #ffffff !default;
+$color-dark: #2c3e50 !default;
+$color-red: #e81e26 !default;
+$color-green: #40aa60 !default;
+$color-blue: #02296d !default;
+
+// Grid
+$color-container-bg: $color-white !default;
+
+/* ----- Generic ----- */
+// General
+$email-bg-color: #f1f1f1 !default;
+
+// Font sizes
+$font-size-base: 14px !default;
+$font-size-h1: 50px !default;
+$font-size-h2: 26px !default;
+$font-size-h3: 20px !default;
+$font-size-h4: 16px !default;
+$font-size-h5: 16px !default;
+$font-size-h6: 12px !default;
+
+// Line heights
+$line-height-base: 20px !default;
+$line-height-h1: 58px !default;
+$line-height-h2: 24px !default;
+$line-height-h3: 36px !default;
+$line-height-h4: 29px !default;
+$line-height-h5: 23px !default;
+$line-height-h6: 20px !default;
+
+/* ----- Objects ----- */
+// Grid
+$grid-columns: 12 !default;
+$grid-container-width: 600px !default;
+$grid-column-width: $grid-container-width / $grid-columns !default;
+$grid-gutter: 12px !default;
+
+/* ----- Components ----- */
+// Buttons
+$button-bg-color: #ff7a14 !default;
+
+/* ----- RWD breakpoints ----- */
+$breakpoint-mobile: $grid-container-width !default;

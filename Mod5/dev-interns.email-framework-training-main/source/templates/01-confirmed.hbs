@@ -1,0 +1,104 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- partial:partials/html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px">
+    <tr>
+      <td align="center" valign="top">
+        <table width="640px" style="max-width: 640px">
+          <tr height="11px"></tr>
+          <tr>
+            <td colspan="8" class="logo align-center" style="padding: 0; text-align: center">
+            {{#eq orders.0.clientProfileData.lastName "Priolli"}}
+              <hr style="border-top: 5rem solid #2CB34A;" />
+            {{/eq}}
+              <!-- partial:partials/header.hbs -->
+              <!-- partial -->
+            </td>
+          </tr>
+        </table>
+        <tr>
+          <td class="w-100 pt2 tc">
+          {{#each orders}}
+          {{#compare @index '==' 0}}
+            {{#richShippingData shippingData}}
+            {{#eq logisticsInfo.0.selectedDeliveryChannel "pickup-in-point"}}
+              Caminhada...
+            {{else}}
+              <img src="https://i.ibb.co/TH9yP5s/status.png" />
+            {{/eq}}
+            {{/richShippingData}}
+          {{/compare}}
+          {{/each}}
+          </td>
+        </tr>
+        <tr>
+          <td class="w-100 pl4 pt2" style="color: #373737; font-size: 30px">
+          {{#if orders}}
+            {{#if orders.0.clientProfileData.firstName}}
+            {{#compare orders.0.clientProfileData.firstName '!=' 'isAnonymous'}}
+              <p style="color: #A38E63"><strong>((i18n.order.title)) {{orders.0.clientProfileData.firstName}}!</strong></p>
+            {{/compare}}
+            {{/if}}
+          {{else}}
+            {{#if clientProfileData.firstName}}
+            {{#compare clientProfileData.firstName '!=' 'isAnonymous'}}
+              <p>((i18n.common.hi)) <strong>{{clientProfileData.firstName}}</strong>,</p>
+            {{/compare}}
+            {{/if}}
+          {{/if}}
+          </td>
+        </tr>
+        <tr>
+          <td class="w-100 ph4 lh-copy" style="color: #373737; font-size: 15px">
+            <p>((i18n.order.congratulations))</p>
+            <p>((i18n.order.yourOrder))<strong>{{orders.0.orderId}}</strong></p>
+            <p>((i18n.order.orderPlaced)) {{formatDate orders.0.creationDate}}</p> 
+          </td>
+        </tr>
+
+        <!-- partial:partials/intro-text.hbs -->
+        <!-- partial -->
+
+        {{#each orders}}
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/order-summary.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/totals.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+        {{/each}}
+
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/messages/cancel-instructions.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/messages/regards.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+        <tr class="w-100 ph4-ns mw6">
+          <!-- partial:partials/footer.hbs -->
+          <!-- partial -->
+        </tr>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

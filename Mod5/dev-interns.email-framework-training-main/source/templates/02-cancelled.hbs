@@ -1,0 +1,115 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- partial:partials/html-head.hbs -->
+<!-- partial -->
+
+<body>
+<table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px">        <tr>
+  <tr>   
+    <td align="center" valign="top">
+      <table width="640px" style="max-width: 640px">
+        <tr height="11px"></tr>
+        <tr>
+          <td colspan="8" class="logo align-center" style="padding: 0; text-align: center">
+            {{#eq clientProfileData.lastName "Priolli"}}
+            <img style="margin: 20px 0; width: 40%; height: 40%" src="https://s2.glbimg.com/v1AhzxLmQERiJF4nRAL1MM9kYHQ=/0x0:1280x853/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/1/0/66nFHyRRAGRSyGrGJuPg/creme-de-milho.jpeg" />
+            {{else}}
+            <img style="margin: 20px 0" src="https://i.ibb.co/4jDhTyp/logo-rihappy-2d-solzinho-2.png" />
+            {{/eq}}
+          </td>
+        </tr>
+        <tr colspan="7" width="100%">
+          <td colspan="1" style="height: 4px; background-color: #EC008C"></td>
+          <td colspan="1" style="height: 4px; background-color: #15BEF0"></td>
+          <td colspan="1" style="height: 4px; background-color: #F26322"></td>
+          <td colspan="1" style="height: 4px; background-color: #62489D"></td>
+          <td colspan="1" style="height: 4px; background-color: #2CB34A"></td>
+          <td colspan="1" style="height: 4px; background-color: #EE3124"></td>
+          <td colspan="1" style="height: 4px; background-color: #F177AE"></td>
+        </tr>
+      </table>
+      <tr>
+        <td class="tc">
+          <img class="w-80 bt b--white bw3 mt3" src="https://i.ibb.co/yghLxYd/Frame-1600-2.png" />
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 ph4 lh-title" style="color: #373737; font-size: 30px">
+          <p class="mt4"><strong>((i18n.order.titleCancelled)) {{clientProfileData.firstName}} :(</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 ph4 lh-solid" style="color: #373737; font-size: 15px">
+          <p class="mt2">((i18n.order.cancelledIntroMessage)) <strong>{{orderId}}</strong> ((i18n.order.cancelled))</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 ph4 lh-solid" style="color: #373737; font-size: 15px">
+          <p class="mt3">((i18n.payment.refundDeadline))</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 ph4 pb3 lh-solid" style="color: #373737; font-size: 15px">
+          <p class="mv3">((i18n.payment.refundReceipt))</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 lh-solid b" style="background-color: #F2F2F2; color: #373737; font-size: 15px">
+          <p class="ph4">((i18n.payment.creditCardRefund))</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 ph4 pt3 lh-copy">
+          <!-- partial:partials/order-summary.hbs -->
+          <!-- partial -->
+        </td>
+      </tr>
+      <!-- partial:partials/line.hbs -->
+      <!-- partial -->
+      <tr>
+        <td class="w-100 ph4 lh-copy">
+        {{#each items}}
+        {{#eq @index "0"}}
+          {{#richShippingData shippingData}}
+          {{#group logisticsInfo by="addessId"}}
+          <div class="cb fn pt3">
+            <!-- Packages -->
+            {{#group items by="packageId"}}
+            {{#compare item.length '>' 1}}
+              <h3 class="mb2">((i18n.package.title)) {{#math index '+' 1}}{{/math}}</h3>
+            {{/compare}}
+            <!-- partial:partials/items.hbs -->
+            <!-- partial -->   
+            {{/group}}
+          </div>
+          {{/group}}
+          {{/richShippingData}}
+          <!-- partial:partials/line.hbs -->
+          <!-- partial -->
+        </td>
+      </tr>
+      <tr>
+        <td class="w-100 ph4 pv3 lh-copy">
+          <!-- partial:partials/payment.hbs -->
+          <!-- partial -->
+        </td>
+      </tr>
+      {{/eq}}
+      {{/each}}  
+      <tr>
+        <td>
+          <!-- partial:partials/access-order-button.hbs -->
+          <!-- partial -->
+        </td>
+      </tr>
+      <tr class="w-100 ph4-ns mw6">
+        <!-- partial:partials/footer.hbs -->
+        <!-- partial -->
+      </tr>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

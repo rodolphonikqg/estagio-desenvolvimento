@@ -1,0 +1,255 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- partial:partials/html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px">
+    <tr>
+      <td align="center" valign="top">
+        <table width="640px" style="max-width: 640px">
+          <tr height="11px"></tr>
+          <tr>
+            <td colspan="8" class="logo align-center" style="padding: 0; text-align: center">
+            {{#eq orders.0.clientProfileData.lastName "Priolli"}}
+              <hr style="border-top: 5rem solid #2CB34A;" />
+            {{/eq}}
+              <!-- partial:partials/header.hbs -->
+              <!-- partial -->
+            </td>
+          </tr>
+        </table>
+        <tr>
+          <td class="w-100 pt2 tc">
+            <img src="https://i.ibb.co/ftsn84k/status.png" />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="w-100 pl4 pt2" style="color: #373737; font-size: 30px">
+            <p style="color: #A38E63"><strong>((i18n.common.hi)), {{clientProfileData.firstName}}!</strong></p>
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+            <!-- partial:partials/messages/delivered.hbs -->
+            <!-- partial -->
+            </td>
+        </tr>
+
+        {{#each orders}}
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/order-summary.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/totals.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+        {{/each}}
+
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+            <button class="w-100" style="margin-bottom: 14px; height: 40px; background: #0062AC; border: none; color: #FFF; border-radius: 5px; font-weight: bold; cursor: pointer;">((i18n.order.myRequests))</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="w-100 ph4 lh-copy">
+          <!-- partial:partials/messages/regards.hbs -->
+          <!-- partial -->
+          </td>
+        </tr>
+        <tr class="w-100 ph4-ns mw6">
+          <!-- partial:partials/footer.hbs -->
+          <!-- partial -->
+        </tr>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
+{{!-- <!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- partial:partials/html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table id="body-table" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px">
+    <tr>
+      <td align="center" valign="top">
+        <table width="640px" style="max-width: 640px">
+
+          <!-- Header -->
+
+          <tr>
+            <td class="w-100">
+              <!-- partial:partials/header.hbs -->
+              <!-- partial -->
+            </td>
+          </tr>
+          <!-- Intro message -->
+          <!-- Header -->
+          <tr>
+            <td class="w-100 pt2 tc">
+              <img src="https://i.ibb.co/TH9yP5s/status.png" />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="w-100 pa4 bt b--light-gray bw3">
+              <p>
+                <!-- partial:partials/messages/hi.hbs -->
+                <!-- partial -->
+                {{#compare sellers.0.id "==" 1}}
+              <p>((i18n.shipping.deliveredDescription))</p>
+              {{else}}
+              {{#hasSubStr sellers.0.id "carrefourbr"}}
+              <p>((i18n.shipping.deliveredDescription))</p>
+              {{else}}
+              <p>Seu pedido foi entregue pelo parceiro. Agora é só aproveitar as suas compras!</p>
+              <p>
+                <a class="dib ph5 pv2 br2 white bg-custom-blue no-underline fw5"
+                href="#">Avalie o vendedor</a>
+              </p>
+              {{/hasSubStr}}
+              {{/compare}}
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              {{#compare sellers.0.id "==" 1}}
+                <img class="w-100 bt b--light-gray bw3"
+                  src="https://carrefourbr.vteximg.com.br/arquivos/et-header-delivered.png" />
+              {{else}}
+                {{#hasSubStr sellers.0.id "carrefourbr"}}
+                  <img class="w-100 bt b--light-gray bw3"
+                    src="https://carrefourbr.vteximg.com.br/arquivos/et-header-delivered.png" />
+                {{else}}
+                  <img class="w-100 bt b--light-gray bw3"
+                    src="https://carrefourbr.vteximg.com.br/arquivos/et-header-delivered-seller.png" />
+                {{/hasSubStr}}
+              {{/compare}}
+            </td>
+          </tr>
+
+          <!-- Shipping Summary -->
+          <tr>
+            <td class="w-100 pa4 bt b--light-gray bw3">
+              <h3>((i18n.shipping.summaryTitle))</h3>
+              <!-- partial:partials/shipping-summary.hbs -->
+              <!-- partial -->
+            </td>
+          </tr>
+
+          <!-- Payment - not splitted -->
+          {{#compare split "!=" true}}
+          <tr>
+            <td class="w-100 pa4 bt bb b--light-gray bw3">
+              <table>
+                <tr class="w-50">
+                  <td class="payment pb1">
+                    <h3 class="mt0 mb2">((i18n.payment.title))</h3>
+                    {{#each paymentData.transactions}}
+                    <!-- partial:partials/payment.hbs -->
+                    <!-- partial -->
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="dib mt2 pv1 ph3 bg-custom-green white f6">
+                      {{#compare sellers.0.id "==" 1}}
+                        <strong>((i18n.shipping.deliveredButton))</strong>
+                      {{else}}
+                        {{#hasSubStr sellers.0.id "carrefourbr"}}
+                          <strong>((i18n.shipping.deliveredButton))</strong>
+                        {{else}}
+                          <strong>Entrega Realizada pelo Parceiro</strong>
+                        {{/hasSubStr}}
+                      {{/compare}}
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              {{/each}}
+            </td>
+          </tr>
+          {{/compare}}
+
+          <!-- Order info -->
+          <tr>
+            <td class="w-100 pa4 bt b--light-gray bw3">
+              <h3>((i18n.common.order)) <span class="fw6">#{{sequence}}</span></h3>
+              <p class="mt0 gray">((i18n.package.seller)) <strong>{{sellers.0.name}}</strong></p>
+
+              <!-- Payment - splitted -->
+              {{#compare split "==" true}}
+              <div class="fl w-100 w-50-ns pb3 v-top">
+                <h3>((i18n.payment.title))</h3>
+                {{#each paymentData.transactions}}
+                <!-- partial:partials/payment.hbs -->
+                <!-- partial -->
+                <div class="dib mt2 pv1 ph2 bg-moon-gray f6">((i18n.payment.pending))</div>
+                {{/each}}
+              </div>
+              {{/compare}}
+
+              <!-- partial:partials/totals.hbs -->
+              <!-- partial -->
+
+              {{#richShippingData shippingData}}
+              {{#group logisticsInfo by="addessId"}}
+              <div class="cb fn pt3">
+
+                <!-- Address info -->
+                <!-- partial:partials/address-delivery-title.hbs -->
+                <!-- partial -->
+                <!-- partial:partials/address-pickup-title.hbs -->
+                <!-- partial -->
+
+                <!-- Packages -->
+                {{#group items by="packageId"}}
+                {{#compare item.length '>' 1}}
+                <h3 class="mb2">((i18n.package.title)) {{#math index '+' 1}}{{/math}}</h3>
+                {{/compare}}
+
+                <!-- partial:partials/package.hbs -->
+                <!-- partial -->
+                {{/group}}
+              </div>
+              {{/group}}
+              {{/richShippingData}}
+            </td>
+          </tr>
+
+          <tr>
+            <td class="ph4-ns mw6 ph4 pb3 mb3">
+              <!-- partial:partials/messages/regards.hbs -->
+              <!-- partial -->
+            </td>
+          </tr>
+
+          <tr class="w-100 ph4-ns bt bb b--light-gray bw3 mw6">
+            <!-- partial:partials/footer-delivered.hbs -->
+            <!-- partial -->
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html> --}}

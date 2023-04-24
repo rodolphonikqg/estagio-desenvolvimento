@@ -1,0 +1,138 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- partial:partials/html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center" valign="top">
+        <table class="w-100 mw6-5 mv4-ns bg-white" width="100%" align="center" border="0" cellpadding="0"
+          cellspacing="0">
+
+          <!-- Header -->
+          <!-- partial:partials/header.hbs -->
+          <!-- partial -->
+
+          <!-- Order track Image-->
+          <tr>
+            <td class="pa4">
+              <img class="w-100"
+                src="https://svgshare.com/i/ZhC.svg" />
+            </td>
+          </tr>
+
+          <!-- Intro message -->
+          <tr>
+            <td class="ph4 pt4 lh-copy">
+              <h2 class="pb2">((i18n.shipping.shippingProduct))
+                <!-- partial:partials/messages/hi.hbs -->
+                <!-- partial -->
+                :)
+              </h2>
+              <p class="pb2">((i18n.shipping.onePackageDelivery))</p>
+              <p>((i18n.order.yourOrder)) <strong>#{{orderId}}</strong> ((i18n.shipping.deliveryInProgress))</p>
+            </td>
+          </tr>
+
+          <!-- partial:partials/line.hbs -->
+          <!-- partial -->
+
+          <!-- Order track -->
+          <tr>
+            <td class="ph4 pv2">
+              <h2 class="pv2">((i18n.shipping.trackDelivery))</h2> 
+            </td>  
+          </tr>
+          <tr>
+            <td class="ph4 flex justify-between">
+              <p>((i18n.shipping.trackButton))</p>
+              <button class="access-order-button">((i18n.order.accessOrder))</button>
+            </td>
+          </tr>
+
+          <!-- partial:partials/line.hbs -->
+          <!-- partial -->
+
+          <!-- partial:partials/order-summary.hbs -->
+          <!-- partial -->
+
+          <!-- partial:partials/line.hbs -->
+          <!-- partial -->
+
+          {{#eq shippingData.address.city "Atibaia"}}
+            <tr>
+              <td class="tc">
+                <h3 class="pa3">Hino de Atibaia</h3>
+
+                <p style="max-height: 1050px;">
+                Salve, Atibaia formosa <br>
+                De noites enluaradas <br>
+                De céus bordados de estrelas <br>
+                E festivas alvoradas <br> 
+                Cativante e hospitaleira <br>
+                Tal como o nosso Brasil <br>
+                Tu és Atibaia amada <br> 
+                Terra amiga e gentil <br><br>
+
+                Salve! Salve! Atibaia querida <br>
+                Dos teus filhos jamais esquecida <br>
+                Majestosa, linda e altaneira <br>
+                És, também, paulista e brasileira <br>
+                Salve! Salve! Atibaia querida <br>
+                Dos teus filhos jamais esquecida <br>
+                Quer no passado, quer no presente <br>
+                És o orgulho da tua gente <br><br>
+
+                Manancial de amenidade <br>
+                Pelo clima e altitude <br>
+                És cidade prazenteira <br> 
+                Linda fonte de saúde <br>
+                Ouviste dos bandeirantes <br>
+                O tropel das cavalgadas <br>
+                Freando indóceis corcéis <br>
+                Em heroicas arrancadas <br><br>
+
+                Salve! Salve! Atibaia querida <br>
+                Dos teus filhos jamais esquecida <br>
+                Majestosa, linda e altaneira <br>
+                És, também, paulista e brasileira <br>
+                Salve! Salve! Atibaia querida <br>
+                Dos teus filhos jamais esquecida <br>
+                Quer no passado, quer no presente <br>
+                És o orgulho da tua gente <br><br>
+
+                A nossa pátria já honraste <br>
+                Com o sangue de teus filhos <br>
+                Defendendo a liberdade <br>
+                Contra a sanha de caudilhos <br>
+                O teu passado glorioso <br>
+                Galardão do teu presente <br>
+                Com teu povo te assinala <br>
+                Um porvir resplandescente <br>
+
+                Salve! Salve! Atibaia querida <br>
+                Dos teus filhos jamais esquecida <br> 
+                Majestosa, linda e altaneira <br>
+                És, também, paulista e brasileira <br>
+                Salve! Salve! Atibaia querida <br>
+                Dos teus filhos jamais esquecida <br>
+                Quer no passado, quer no presente <br>
+                És o orgulho da tua gente
+                </p>
+              </td>
+            </tr>
+          {{/eq}}
+
+          <!-- partial:partials/footer.hbs -->
+          <!-- partial -->
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

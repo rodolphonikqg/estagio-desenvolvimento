@@ -1,0 +1,7 @@
+<!-- Running days or Business days -->
+{{#hasSubStr shippingEstimate "bd"}}
+  {{parseMyInt shippingEstimate}} ((i18n.shipping.businessDays))
+      {{#hasSubStr shippingEstimate "h"}}
+      {{parseMyInt shippingEstimate}} ((i18n.shipping.hours))
+    {{/hasSubStr}}
+{{/hasSubStr}}
