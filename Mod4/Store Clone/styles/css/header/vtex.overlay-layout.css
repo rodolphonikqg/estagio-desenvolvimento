@@ -1,0 +1,7 @@
+.trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    z-index: 1 !important;
+}

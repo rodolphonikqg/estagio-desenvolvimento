@@ -30,8 +30,6 @@
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "main-header",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
@@ -39,9 +37,31 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
-      "search-bar",
+      "overlay-trigger",
       "login",
       "minicart.v2"
+    ]
+  },
+  "overlay-trigger": {
+    "children": [
+      "rich-text#search",
+      "overlay-layout" 
+    ]
+  },
+  "rich-text#search": {
+    "props": {
+      "text": "![Search Icon](assets/imgs/icons/search.png)",
+      "blockClass": "search-icon"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "showArrow": true,
+      "scrollBehavior": "close-on-scroll"
+    },
+    "children": [
+      "search-bar"
     ]
   },
   "login": {
@@ -58,6 +78,7 @@
   },
   "flex-layout.col#category-menu": {
     "props": {
+      "blockClass": "category-items",
       "verticalAlign": "middle"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
@@ -71,15 +92,12 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
-  },
-  "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "search-bar",
+      "overlay-trigger",
       "logo#mobile",
       "login",
       "minicart.v2"

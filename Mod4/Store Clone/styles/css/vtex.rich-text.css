@@ -67,6 +67,27 @@
   font-weight: 700;
 }
 
+.paragraph--custom-text {
+  margin: 0;
+}
+
+.heading--follow-us-text {
+  color: #73708b;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.heading--about-us-text {
+  color: #73708b;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4),
+:global(.vtex-rich-text-0-x-heading--category-title-text-tablet) {
+  color: #73708b;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -86,5 +107,15 @@
 
   .container--title .paragraph {
     line-height: 1.3em;
+  }
+}
+
+@media (max-width: 480px) {
+  .paragraph--about-us-text {
+    margin: 0 25px;
+  }
+
+  .container--footer {
+    padding: 0 5px;
   }
 }

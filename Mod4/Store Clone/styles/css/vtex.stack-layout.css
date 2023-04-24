@@ -9,7 +9,6 @@
 }
 
 .stackItem--custom-text, .stackItem--custom-button {
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -17,8 +16,33 @@
 
 .stackItem--custom-text {
   height: 100%;
+  min-width: 296px;
+  left: 25%;
 }
 
 .stackItem--custom-button {
-  height: 150%;
+  margin-top: 12.5rem;
+  left: 25%;
+}
+
+.stackItem--first {
+  margin-top: 8px;
+}
+
+.stackContainer .stackItem--first :global(.vtex-store-components-3-x-imageElement) {
+  height: 215px;
+}
+
+@media (max-width: 1024px) {
+  .stackItem--custom-button {
+    margin-top: 6.25rem;
+    left: 60%;
+    width: 250px;
+    font-size: 0.75rem;
+  }
+
+  .stackItem--custom-button :global(.vtex-store-link-0-x-link--custom-button) {
+    width: 250px;
+    font-size: 0.75rem;
+  }
 }

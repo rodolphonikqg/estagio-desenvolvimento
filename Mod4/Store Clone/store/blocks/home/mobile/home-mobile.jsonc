@@ -3,7 +3,7 @@
         "children": [
             "list-context.image-list#banner-mobile",
             "rich-text#category-title-mobile",
-            "list-context.image-list#category-mobile",
+            "flex-layout.row#category-container-mobile",
             "rich-text#shelf-title-mobile",
             "flex-layout.row#shelf-mobile",
             "stack-layout#marriage-mobile",
@@ -15,7 +15,7 @@
     },
     "list-context.image-list#banner-mobile": {
         "children": [
-            "slider-layout#banner"
+            "slider-layout#banner-mobile"
         ],
         "props": {
             "height": 215,
@@ -29,10 +29,9 @@
             ]
         }
     },
-    "slider-layout#banner": {
+    "slider-layout#banner-mobile": {
         "props": {
             "itemsPerPage": {
-                "desktop": 1,
                 "phone": 1
             },
             "infinite": true,
@@ -42,8 +41,17 @@
     "rich-text#category-title-mobile": {
         "props": {
             "text": "###### UM PRESENTE PARA CADA OCASIÃO",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "category-title-text"
         }
+    },
+    "flex-layout.row#category-container-mobile": {
+        "props": {
+            "blockClass": "category-container"
+        },
+        "children": [
+            "list-context.image-list#category-mobile"
+        ]
     },
     "list-context.image-list#category-mobile": {
         "children": [
@@ -81,30 +89,31 @@
     "rich-text#shelf-title-mobile": {
         "props": {
             "text": "###### PRODUTOS EM DESTAQUE",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "category-title-text"
         }
     },
     "flex-layout.row#shelf-mobile": {
         "children": [
-            "list-context.product-list#products-shelf"
+            "list-context.product-list#products-shelf-mobile"
         ]
     },
-    "list-context.product-list#products-shelf": {
+    "list-context.product-list#products-shelf-mobile": {
         "blocks": [
-            "product-summary.shelf#products-shelf"
+            "product-summary.shelf#products-shelf-mobile"
         ],
         "children": [
-            "slider-layout#products-slider"
+            "slider-layout#products-slider-mobile"
         ]
     },
-    "product-summary.shelf#products-shelf": {
+    "product-summary.shelf#products-shelf-mobile": {
         "children": [
             "product-summary-image",
             "product-summary-name",
             "product-summary-price"
         ]
     },
-    "slider-layout#products-slider": {
+    "slider-layout#products-slider-mobile": {
         "props": {
             "itemsPerPage": {
                 "phone": 2
@@ -116,10 +125,10 @@
     },
     "stack-layout#marriage-mobile": {
         "children": [
-            "image#marriage"
+            "image#marriage-mobile"
         ]
     },
-    "image#marriage": {
+    "image#marriage-mobile": {
         "props": {
             "height": 275,
             "width": "100%",
@@ -128,10 +137,10 @@
     },
     "stack-layout#custom-mobile": {
         "children": [
-            "image#custom"
+            "image#custom-mobile"
         ]
     },
-    "image#custom": {
+    "image#custom-mobile": {
         "props": {
             "width": "100%",
             "src": "assets/imgs/banners/banner4.png"
@@ -145,20 +154,20 @@
     },
     "flex-layout.row#merci-about-us-mobile": {
         "children": [
-            "image#logo",
-            "rich-text#about-us-text"
+            "image#logo-mobile",
+            "rich-text#about-us-text-mobile"
         ],
         "props": {
             "blockClass": "wrapper--about-us"
         }
     },
-    "image#logo": {
+    "image#logo-mobile": {
         "props": {
             "height": 100,
             "src": "assets/imgs/logos/merci-logo.png"
         }
     },
-    "rich-text#about-us-text": {
+    "rich-text#about-us-text-mobile": {
         "props": {
             "blockClass": "about-us-text",
             "text": "##### SOBRE A MARCA\nA MerciWithLove é uma marca de artigos de couro 100% natural em que tudo pode ser personalizado de acordo com o desejo de cada cliente.",
@@ -167,40 +176,40 @@
     },
     "flex-layout.row#form-mobile": {
         "children": [
-            "newsletter-form"
+            "newsletter-form#mobile"
         ],
         "props": {
             "blockClass": "wrapper--form"
         }
     },
-    "newsletter-form": {
+    "newsletter-form#mobile": {
         "children": [
-            "rich-text#newsletter-title",
-            "newsletter-input-email",
-            "newsletter-input-name",
-            "newsletter-submit"
+            "rich-text#newsletter-title-mobile",
+            "newsletter-input-email#mobile",
+            "newsletter-input-name#mobile",
+            "newsletter-submit#mobile"
         ],
         "props": {
             "blockClass": "wrapper--newsletter"
         }
     },
-    "rich-text#newsletter-title": {
+    "rich-text#newsletter-title-mobile": {
         "props": {
             "blockClass": "newsletter-title-text",
             "text": "![email](assets/imgs/icons/email.png) NEWSLETTER"
         }
     },
-    "newsletter-input-email": {
+    "newsletter-input-email#mobile": {
         "props": {
             "placeholderText": "Digite seu e-mail"
         }
     },
-    "newsletter-input-name": {
+    "newsletter-input-name#mobile": {
         "props": {
             "placeholderText": "Digite seu nome"
         }
     },
-    "newsletter-submit": {
+    "newsletter-submit#mobile": {
         "props": {
             "submitButtonLabel": "Cadastrar"
         }

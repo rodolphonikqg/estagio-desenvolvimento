@@ -1,5 +1,5 @@
 {
-  "vendor": "vtex",
+  "vendor": "estagioacct",
   "name": "store-theme",
   "version": "4.4.2",
   "builders": {
@@ -45,6 +45,7 @@
     "vtex.product-review-interfaces": "1.x",
     "vtex.telemarketing": "2.x",
     "vtex.order-placed": "2.x",
+    "vtex.overlay-layout": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
@@ -66,8 +67,6 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x"
   },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
-  },
+  "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

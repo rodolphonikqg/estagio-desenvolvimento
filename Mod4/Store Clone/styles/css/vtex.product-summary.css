@@ -18,9 +18,10 @@
 }
 
 .nameContainer {
-  justify-content: start;
+  justify-content: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  height: 52.5px;
 }
 
 .brandName {
@@ -35,6 +36,13 @@
 
 .imageContainer {
   text-align: center;
+  height: 282.5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.priceContainer {
+  height: 87.5px;
 }
 
 .image {

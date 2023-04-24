@@ -14,3 +14,24 @@
   display: block;
   margin-bottom: 1rem;
 }
+
+:global(.vtex-input-prefix__group) {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  border-radius: 0;
+}
+
+:global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+    text-align: center;
+  }
+
+  :global(.vtex-input-prefix__group) {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+  }
+}

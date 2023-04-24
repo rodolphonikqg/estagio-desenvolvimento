@@ -30,4 +30,26 @@
 
 .flexRowContent--main-header {
     background: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.flexRow--menu-row {
+    font-weight: 300;
+}
+
+.flexRow--category-container {
+    margin: 0 12.5px;
+}
+
+.flexCol--category-items 
+.flexColChild--category-items 
+:global(.vtex-menu-2-x-menuContainerNav) 
+:global(.vtex-menu-2-x-menuContainer) 
+:global(.vtex-menu-2-x-menuItem) 
+:global(.vtex-menu-2-x-styledLinkContainer) 
+:global(.vtex-menu-2-x-styledLink) 
+:global(.vtex-menu-2-x-styledLinkContent) {
+    font-weight: bold;
 }

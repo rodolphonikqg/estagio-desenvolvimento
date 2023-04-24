@@ -32,7 +32,7 @@
       "id": "menu-item-telephone",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -47,7 +47,7 @@
       "id": "menu-item-wpp",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -62,7 +62,7 @@
       "id": "menu-item-email",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -78,7 +78,7 @@
       "id": "menu-item-socials",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -106,7 +106,7 @@
       "id": "menu-item-help",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -122,7 +122,7 @@
       "id": "menu-item-changes",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -138,7 +138,7 @@
       "id": "menu-item-privacy-politics",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -154,7 +154,7 @@
       "id": "menu-item-delivery-politics",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -191,7 +191,7 @@
       "id": "menu-item-atelie",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -207,7 +207,7 @@
       "id": "menu-item-address",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -223,7 +223,7 @@
       "id": "menu-item-address2",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -239,7 +239,7 @@
       "id": "menu-item-enxoval",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -255,7 +255,7 @@
       "id": "menu-item-about-enxoval",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -271,7 +271,7 @@
       "id": "menu-item-wwe",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -315,7 +315,7 @@
       "id": "menu-item-category-contact",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -343,7 +343,14 @@
 
   "menu-item#institutional-mobile": {
     "props": {
+      "id": "menu-item-category-institutional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
       "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
         "tagTitle": "Institutional",
         "text": "Institucional"
       }
@@ -367,7 +374,14 @@
 
   "menu-item#help-mobile": {
     "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
       "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
         "tagTitle": "Help",
         "text": "Ajuda e Suporte"
       }
@@ -391,7 +405,14 @@
 
   "menu-item#atelie-mobile": {
     "props": {
+      "id": "menu-item-atelie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
       "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
         "tagTitle": "Our Atelie",
         "text": "Nosso Ateliê BH"
       }
@@ -414,7 +435,14 @@
 
   "menu-item#enxoval-mobile": {
     "props": {
+      "id": "menu-item-enxoval",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
       "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
         "tagTitle": "Enxoval",
         "text": "Enxoval Merci"
       }
@@ -439,7 +467,7 @@
       "id": "menu-item-category-institutional",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -455,7 +483,7 @@
       "id": "menu-item-club",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/#",
@@ -471,7 +499,7 @@
       "id": "menu-item-talk-with-us",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "#",

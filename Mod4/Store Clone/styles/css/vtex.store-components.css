@@ -112,10 +112,15 @@
   font-size: 30px;
 }
 
-.container {
+/* .container {
   width: 100%;
-}
+} */
 
 .searchBarContainer {
-  margin: auto;
+  margin: auto 5px auto 0;
+}
+
+.imageElement {
+  object-fit: cover;
+  height: auto;
 }
