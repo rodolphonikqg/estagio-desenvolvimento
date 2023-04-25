@@ -20,7 +20,7 @@
     "gulp-i18n-localize": "^1.2.7",
     "gulp-inject-partials": "^1.0.3",
     "gulp-replace": "^0.6.1",
-    "gulp-sass": "^4.0.0",
+    "gulp-sass": "^4.1.1",
     "gulp-strip-comments": "^2.5.2",
     "gulp-util": "^3.0.8",
     "handlebars-helpers": "^0.10.0",
@@ -29,5 +29,7 @@
     "through2": "^2.0.3",
     "web-resource-inliner": "^4.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.14.18"
+  }
 }

@@ -148,12 +148,12 @@
 	"sellerOrderId": "00-1030170272335-01",
 	"storeId": null,
 	"checkedInPickupPointId": null,
-	"value": 153500,
+	"value": 103500,
 	"totals": [
 		{
 			"id": "Items",
 			"name": "Total dos Itens",
-			"value": 170000
+			"value": 120000
 		},
 		{
 			"id": "Discounts",

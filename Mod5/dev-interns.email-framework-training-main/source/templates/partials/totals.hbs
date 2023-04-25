@@ -3,7 +3,12 @@
     {{#if value}}
       <tr style="display: flex; justify-content: space-between; width: 60%; margin-left: 32px">
         <td>
-          ((i18n.payment.totalPrice))
+          {{#eq value 120000}}
+            ((i18n.payment.totalPrice))
+          {{/eq}}
+          {{#eq value 1499}}
+            ((i18n.payment.totalPrice))
+          {{/eq}}
           {{#eq ../subjectItemAttachment.totalItems 1}}
             {{else}}
             ((i18n.common.items))

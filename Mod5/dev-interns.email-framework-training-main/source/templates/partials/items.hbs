@@ -80,28 +80,6 @@
           </table>
         </td>
       </tr>
-      {{#each bundleItems}}
-        {{#if name}}
-          <tr class="bb b--white">
-            <td class="v-top pv2 w3"><img
-                class="itemsImageSize mw-none"
-                alt=""
-                src="{{imageUrl}}"
-              /></td>
-            <td class="v-top pv2">
-              <div class="f6-l lh-copy pt1 black">{{name}}</div>
-              <div class="b f6-l pt1" style="color: #68478D">
-                {{#if price}}
-                  ((i18n.common.currency))
-                  {{formatCurrency price}}
-                {{else}}
-                  ((i18n.common.free))
-                {{/if}}
-              </div>
-            </td>
-          </tr>
-        {{/if}}
-      {{/each}}
     {{/each}}
     </table>
   </td>
