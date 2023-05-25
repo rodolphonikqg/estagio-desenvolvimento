@@ -1,0 +1,8 @@
+{
+    "rcps": {
+        "component": "RecipesContainer"
+    },
+    "srch": {
+        "component": "SearchContainer"
+    }
+}

@@ -1,0 +1,34 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.socialNetworkImage {
+  background: #001F55;
+  border-radius: 50%;
+}
+
+.flexCol--footer-right-container {
+  display: flex;
+}
+
+.footerLayout {
+  margin: .75rem 0;
+}
+
+:global(.vtex-card) {
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .footerLayout :global(.vtex-flex-layout-0-x-flexRow) :global(.vtex-store-components-3-x-container) {
+    padding: 0 3rem;
+  } 
+}
