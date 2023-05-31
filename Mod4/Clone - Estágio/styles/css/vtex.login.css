@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    :global(.vtex-store__template) :global(.flex-column) > div:nth-child(2) {
+        display: flex;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    :global(.vtex-store__template) :global(.flex-column) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+        display: flex;
+        padding: 0 5%;
+    }
+
+    :global(.vtex-store__template) :global(.flex-column) :global(.vtex-sticky-layout-0-x-wrapper) :global(.vtex-sticky-layout-0-x-container) :global(.vtex-flex-layout-0-x-flexRow--desk-upper-header) :global(.vtex-store-components-3-x-container) :global(.vtex-flex-layout-0-x-flexRowContent--desk-upper-header):nth-child(3) {
+        width: 10% !important;
+      }
+
+    :global(.vtex-store__template) :global(.flex-column) > div:nth-child(3) > div > div:first-child  {
+        display: flex;
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+  }

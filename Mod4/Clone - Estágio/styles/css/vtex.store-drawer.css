@@ -1,0 +1,15 @@
+.menuIcon, .closeIcon {
+    color: #FFF;
+}
+
+.closeIcon {
+    position: absolute;
+}
+
+.opened {
+    background: #333;
+}
+
+.closeIconContainer {
+    margin: 0 calc(100% - 60px);
+}

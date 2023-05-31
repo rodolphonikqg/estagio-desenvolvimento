@@ -1,0 +1,391 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-mobile1",
+      "flex-layout.row#footer-mobile2",
+      "flex-layout.row#footer-mobile3",
+      "flex-layout.row#footer-mobile4"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile1",
+      "flex-layout.row#footer-mobile2",
+      "flex-layout.row#footer-mobile3",
+      "flex-layout.row#footer-mobile4"
+    ]
+  },
+
+  "flex-layout.row#footer-mobile1": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-text"
+    ],
+    "props": {
+      "blockClass": ["footer-mobile"]
+    }
+  },
+
+  "flex-layout.row#footer-mobile2": {
+    "children": [
+      "logo#americanexpress",
+      "logo#elo",
+      "logo#mastercard",
+      "logo#visa"
+    ],
+    "props": {
+      "blockClass": ["footer-mobile", "footer-mobile-payment"]
+    }
+  },
+
+  "flex-layout.row#footer-mobile3": {
+    "children": [
+      "rich-text#footer-mobile-email"
+    ],
+    "props": {
+      "blockClass": ["footer-mobile", "footer-lower-text"]
+    }
+  },
+
+  "flex-layout.row#footer-mobile4": {
+    "children": [
+      "rich-text#footer-mobile-advert",
+      "rich-text#footer-mobile-cnpj"
+    ],
+    "props": {
+      "blockClass": ["footer-mobile", "footer-lower-text"]
+    }
+  },
+
+  "rich-text#footer-mobile-advert": {
+    "props": {
+      "text": "SÃO PROIBIDAS A VENDA E ENTREGA DE BEBIDAS ALCOÓLICAS A MENORES DE 18 (DEZOITO) ANOS (art. 81, II, do Estatuto da Criança e do Adolescente).",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["footer-advert"]
+    }
+  },
+
+  "rich-text#footer-mobile-cnpj": {
+    "props": {
+      "text": "CNPJ: 09.000.493/0002-15",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["footer-advert"]
+    }
+  },
+
+  "rich-text#footer-mobile-email": {
+    "props": {
+      "text": "![email](https://i.ibb.co/4VHQ4kL/email.png) ajuda@marche.com.br",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["footer-email"]
+    }
+  },
+
+  "logo#americanexpress": {
+    "props": {
+      "title": "Logo American Express",
+      "href": "/",
+      "url": "https://www.marche.com.br/assets/ic_card_american_express-a49313d582e502396428de0ee3383a35973c62f3e62b799c8ffc879db69a348c.svg",
+      "width": "30"
+    }
+  },
+
+  "logo#elo": {
+    "props": {
+      "title": "Logo American Express",
+      "href": "/",
+      "url": "https://www.marche.com.br/assets/ic_card_elo-e2460138769e46a1abe9a565c61effc7c2bc2f8d6d91ab0c5379ae5b67859d24.svg",
+      "width": "30"
+    }
+  },
+
+  "logo#mastercard": {
+    "props": {
+      "title": "Logo American Express",
+      "href": "/",
+      "url": "https://www.marche.com.br/assets/ic_card_mastercard-c9741a8e21de43d91845afeb029f135e8b540887bac6a3b21b5f98ce9f32b1f2.svg",
+      "width": "30"
+    }
+  },
+
+  "logo#visa": {
+    "props": {
+      "title": "Logo American Express",
+      "href": "/",
+      "url": "https://www.marche.com.br/assets/ic_card_visa-06e193bc8b0de21beb51f7af31f4b8cfac6863dc2a7850349e74760f74d1f04f.svg",
+      "width": "30"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-text": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about",
+      "menu-item#dbt",
+      "menu-item#priv",
+      "menu-item#terms",
+      "menu-item#apps",
+      "menu-item#stores",
+      "menu-item#workwithus",
+      "menu-item#contact",
+      "menu-item#campaigns",
+      "menu-item#devolutions"
+    ]
+  },
+  "menu-item#about": {
+    "props": {
+      "id": "menu-item-about",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    }
+  },
+  "menu-item#dbt": {
+    "props": {
+      "id": "menu-item-dbt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dbt",
+        "text": "Dúvidas"
+      }
+    }
+  },
+  "menu-item#priv": {
+    "props": {
+      "id": "menu-item-priv",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Priv",
+        "text": "Privacidade"
+      }
+    }
+  },
+  "menu-item#terms": {
+    "props": {
+      "id": "menu-item-terms",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Terms",
+        "text": "Termos"
+      }
+    }
+  },
+  "menu-item#apps": {
+    "props": {
+      "id": "menu-item-apps",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Apps",
+        "text": "Apps"
+      }
+    }
+  },
+  "menu-item#stores": {
+    "props": {
+      "id": "menu-item-stores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Stores",
+        "text": "Lojas"
+      }
+    }
+  },
+  "menu-item#workwithus": {
+    "props": {
+      "id": "menu-item-workwithus",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Work With Us",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Contatos"
+      }
+    }
+  },
+  "menu-item#campaigns": {
+    "props": {
+      "id": "menu-item-campaigns",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Campaigns",
+        "text": "Campanhas"
+      }
+    }
+  },
+  "menu-item#devolutions": {
+    "props": {
+      "id": "menu-item-devolutions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Devolutions",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}

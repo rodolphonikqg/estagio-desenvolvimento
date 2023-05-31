@@ -1,0 +1,310 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+
+    ]
+  },
+  "menu-item#yellow-1": {
+    "props": {
+      "id": "menu-item-yellow-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Especial Carnes",
+        "text": "Especial Carnes"
+      }
+    }
+  },
+  "menu-item#yellow-2": {
+    "props": {
+      "id": "menu-item-yellow-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Pro Treino",
+        "text": "Pro Treino"
+      }
+    }
+  },
+  "menu-item#yellow-3": {
+    "props": {
+      "id": "menu-item-yellow-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Seleção de ofertas",
+        "text": "Seleção de ofertas"
+      }
+    }
+  },
+  "menu-item#yellow-4": {
+    "props": {
+      "id": "menu-item-yellow-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Vinhos do Mês Maio",
+        "text": "Vinhos do Mês Maio"
+      }
+    }
+  },
+  "menu-item#final-1": {
+    "props": {
+      "id": "menu-item-final-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Açougue",
+        "text": "Açougue"
+      }
+    }
+  },
+  "menu-item#final-2": {
+    "props": {
+      "id": "menu-item-final-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Bebê e Infantil",
+        "text": "Bebê e Infantil"
+      }
+    }
+  },
+  "menu-item#final-3": {
+    "props": {
+      "id": "menu-item-final-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Bebidas",
+        "text": "Bebidas"
+      }
+    }
+  },
+  "menu-item#ret": {
+    "props": {
+      "id": "menu-item-ret",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "...",
+        "text": "..."
+      }
+    }
+  },
+  "menu-item#wwu": {
+    "props": {
+      "id": "menu-item-wwu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Trabalhe Conosco",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+  "menu-item#contact": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Contato",
+        "text": "Contato"
+      }
+    }
+  },
+  "menu-item#campaigns": {
+    "props": {
+      "id": "menu-item-campaigns",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Campanhas",
+        "text": "Campanhas"
+      }
+    }
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Página Inicial",
+        "text": "Página Inicial"
+      }
+    }
+  },
+  "menu-item#category-apparel-initial-page": {
+    "props": {
+      "id": "menu-item-category-apparel-initial-page",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/initial-page/",
+        "noFollow": false,
+        "tagTitle": "Página Inicial",
+        "text": "Página Inicial"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Login",
+        "text": "Login"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Criar Conta",
+        "text": "Criar Conta"
+      }
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}
