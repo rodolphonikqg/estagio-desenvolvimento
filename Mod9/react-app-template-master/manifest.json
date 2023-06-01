@@ -1,7 +1,7 @@
 {
   "vendor": "estagioacct",
   "name": "rcts",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "title": "Receitas",
   "description": "Receitas do Rodolpho",
   "builders": {
