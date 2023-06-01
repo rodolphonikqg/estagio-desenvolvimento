@@ -1,0 +1,86 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+>
+  <!-- partial:partials/html-head.hbs -->
+  <!-- partial -->
+  <body>
+    <table
+      id="body-table"
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+    >
+      <tr>
+        <td align="center" valign="top">
+          <table
+            class="w-100 mw6-5 mv4-ns bg-white"
+            width="100%"
+            align="center"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+          >
+            <!-- Header -->
+            <!-- partial:partials/header.hbs -->
+            <!-- partial -->
+            <tr>
+              <td class="pa4">
+              <img
+              class="w-100"
+              src="https://i.ibb.co/DL76Cth/Frame-1600.png"
+            />
+              </td>
+            </tr>
+            <!-- Intro message -->
+            <tr>
+              <td class="ph4">
+                <h2>((i18n.payment.approved)), {{clientProfileData.firstName}} :) !</h2>
+                <p>((i18n.order.congratulations)) ((i18n.order.yourOrder)) <strong>{{orderId}}</strong> ((i18n.invoice.waitingInvoice))</p>
+                <p>
+                    {{#eq paymentData.transactions.0.payments.0.paymentSystemName  "BOLBRADESCO"}}
+                        Obrigado por não da calote, continue sem nos dar prejuizo e nos enriquecendo!
+                    {{/eq}}  
+                </p>
+                <p>((i18n.invoice.invoiceMessage))</p>
+              </td>
+            </tr>
+            <!-- Order info -->
+            <tr>
+              <td class="ph4 pv2">
+                <hr class="line" />
+              </td>
+            </tr>
+            <!-- partial:partials/order-info.hbs -->
+            <!-- partial -->
+            <tr>
+              <td class="ph4 pv2">
+                <hr class="line" />
+              </td>
+            </tr>
+            <!-- partial:partials/order-summary.hbs -->
+            <!-- partial -->
+            <tr>
+              <td class="ph4 pv2">
+                <hr class="line" />
+              </td>
+            </tr>
+            <tr>
+              <td class="tc pa4">
+                <button class="access-order-button">((i18n.order.accessOrder))</button>
+              </td>
+            </tr>
+                <!-- partial:partials/footer.hbs -->
+                <!-- partial -->
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

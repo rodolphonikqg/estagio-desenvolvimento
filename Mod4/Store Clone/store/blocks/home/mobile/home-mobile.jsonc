@@ -1,0 +1,217 @@
+{
+    "responsive-layout.phone#home": {
+        "children": [
+            "list-context.image-list#banner-mobile",
+            "rich-text#category-title-mobile",
+            "flex-layout.row#category-container-mobile",
+            "rich-text#shelf-title-mobile",
+            "flex-layout.row#shelf-mobile",
+            "stack-layout#marriage-mobile",
+            "stack-layout#custom-mobile",
+            "rich-text#follow-us-mobile",
+            "flex-layout.row#merci-about-us-mobile",
+            "flex-layout.row#form-mobile"
+        ]
+    },
+    "list-context.image-list#banner-mobile": {
+        "children": [
+            "slider-layout#banner-mobile"
+        ],
+        "props": {
+            "height": 215,
+            "images": [
+                {
+                    "mobileImage": "assets/imgs/banners/banner1.png"
+                },
+                {
+                    "mobileImage": "assets/imgs/banners/banner2.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "desktopOnly"
+        }
+    },
+    "rich-text#category-title-mobile": {
+        "props": {
+            "text": "###### UM PRESENTE PARA CADA OCASIÃO",
+            "textPosition": "CENTER",
+            "blockClass": "category-title-text"
+        }
+    },
+    "flex-layout.row#category-container-mobile": {
+        "props": {
+            "blockClass": "category-container"
+        },
+        "children": [
+            "list-context.image-list#category-mobile"
+        ]
+    },
+    "list-context.image-list#category-mobile": {
+        "children": [
+            "slider-layout#category"
+        ],
+        "props": {
+            "height": 350,
+            "images": [
+                {
+                    "mobileImage": "assets/imgs/banners/category1.png"
+                },
+                {
+                    "mobileImage": "assets/imgs/banners/category2.png"
+                },
+                {
+                    "mobileImage": "assets/imgs/banners/category3.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#category": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 2500
+            }
+        }
+    },
+    "rich-text#shelf-title-mobile": {
+        "props": {
+            "text": "###### PRODUTOS EM DESTAQUE",
+            "textPosition": "CENTER",
+            "blockClass": "category-title-text"
+        }
+    },
+    "flex-layout.row#shelf-mobile": {
+        "children": [
+            "list-context.product-list#products-shelf-mobile"
+        ]
+    },
+    "list-context.product-list#products-shelf-mobile": {
+        "blocks": [
+            "product-summary.shelf#products-shelf-mobile"
+        ],
+        "children": [
+            "slider-layout#products-slider-mobile"
+        ]
+    },
+    "product-summary.shelf#products-shelf-mobile": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price"
+        ]
+    },
+    "slider-layout#products-slider-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always"
+        }
+    },
+    "stack-layout#marriage-mobile": {
+        "children": [
+            "image#marriage-mobile"
+        ]
+    },
+    "image#marriage-mobile": {
+        "props": {
+            "height": 275,
+            "width": "100%",
+            "src": "assets/imgs/banners/banner3.png"
+        }
+    },
+    "stack-layout#custom-mobile": {
+        "children": [
+            "image#custom-mobile"
+        ]
+    },
+    "image#custom-mobile": {
+        "props": {
+            "width": "100%",
+            "src": "assets/imgs/banners/banner4.png"
+        }
+    },
+    "rich-text#follow-us-mobile": {
+        "props": {
+            "text": "#### SIGA-NOS @merciwithlove",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#merci-about-us-mobile": {
+        "children": [
+            "image#logo-mobile",
+            "rich-text#about-us-text-mobile"
+        ],
+        "props": {
+            "blockClass": "wrapper--about-us"
+        }
+    },
+    "image#logo-mobile": {
+        "props": {
+            "height": 100,
+            "src": "assets/imgs/logos/merci-logo.png"
+        }
+    },
+    "rich-text#about-us-text-mobile": {
+        "props": {
+            "blockClass": "about-us-text",
+            "text": "##### SOBRE A MARCA\nA MerciWithLove é uma marca de artigos de couro 100% natural em que tudo pode ser personalizado de acordo com o desejo de cada cliente.",
+            "textAlignment": "CENTER"
+        }
+    },
+    "flex-layout.row#form-mobile": {
+        "children": [
+            "newsletter-form#mobile"
+        ],
+        "props": {
+            "blockClass": "wrapper--form"
+        }
+    },
+    "newsletter-form#mobile": {
+        "children": [
+            "rich-text#newsletter-title-mobile",
+            "newsletter-input-email#mobile",
+            "newsletter-input-name#mobile",
+            "newsletter-submit#mobile"
+        ],
+        "props": {
+            "blockClass": "wrapper--newsletter"
+        }
+    },
+    "rich-text#newsletter-title-mobile": {
+        "props": {
+            "blockClass": "newsletter-title-text",
+            "text": "![email](assets/imgs/icons/email.png) NEWSLETTER"
+        }
+    },
+    "newsletter-input-email#mobile": {
+        "props": {
+            "placeholderText": "Digite seu e-mail"
+        }
+    },
+    "newsletter-input-name#mobile": {
+        "props": {
+            "placeholderText": "Digite seu nome"
+        }
+    },
+    "newsletter-submit#mobile": {
+        "props": {
+            "submitButtonLabel": "Cadastrar"
+        }
+    }
+}

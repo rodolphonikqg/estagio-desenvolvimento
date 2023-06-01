@@ -1,0 +1,18 @@
+.wrapper--category-container--stuck .container--category-container {
+    top: 65px !important;
+    background: #F4F7F7;
+}
+
+.wrapper--category-container {
+    display: block !important;
+}
+
+.container--category-container {
+    background: #F4F7F7;
+}
+
+@media (min-width: 1024px) {
+    .wrapper--category-container--stuck .container--category-container {
+        top: 75px !important;
+    }
+}

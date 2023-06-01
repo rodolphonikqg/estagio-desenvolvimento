@@ -1,0 +1,224 @@
+{
+    "responsive-layout.tablet#home": {
+        "children": [
+            "list-context.image-list#banner-tablet",
+            "rich-text#category-title-tablet",
+            "flex-layout.row#category-images-tablet",
+            "rich-text#shelf-title-tablet",
+            "flex-layout.row#shelf-tablet",
+            "stack-layout#marriage-tablet",
+            "stack-layout#custom-tablet",
+            "rich-text#follow-us-tablet",
+            "flex-layout.row#merci-about-us-tablet",
+            "flex-layout.row#form-tablet"
+        ]
+    },
+    "list-context.image-list#banner-tablet": {
+        "children": [
+            "slider-layout#banner-tablet"
+        ],
+        "props": {
+            "height": 540,
+            "images": [
+                {
+                    "image": "assets/imgs/banners/banner1.png",
+                    "mobileImage": ""
+                },
+                {
+                    "image": "assets/imgs/banners/banner2.png",
+                    "mobileImage": ""
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-tablet": {
+        "props": {
+            "itemsPerPage": {
+                "tablet": 1
+            },
+            "infinite": true
+        }
+    },
+    "rich-text#category-title-tablet": {
+        "props": {
+            "text": "### UM PRESENTE PARA CADA OCASIÃO",
+            "textPosition": "CENTER",
+            "blockClass": "category-title-text-tablet"
+        }
+    },
+    "flex-layout.row#category-images-tablet": {
+        "children": [
+            "image#category-img1-tablet",
+            "image#category-img2-tablet",
+            "image#category-img3-tablet"
+        ],
+        "props": {
+            "height": 350,
+            "blockClass": "category-container"
+        }
+    },
+    "image#category-img1-tablet": {
+        "props": {
+            "src": "assets/imgs/banners/category1.png",
+            "maxHeight": 350
+        }
+    },
+    "image#category-img2-tablet": {
+        "props": {
+            "src": "assets/imgs/banners/category2.png",
+            "maxHeight": 350
+        }
+    },
+    "image#category-img3-tablet": {
+        "props": {
+            "src": "assets/imgs/banners/category3.png",
+            "maxHeight": 350
+        }
+    },
+    "rich-text#shelf-title-tablet": {
+        "props": {
+            "text": "### PRODUTOS EM DESTAQUE",
+            "textPosition": "CENTER",
+            "blockClass": "category-title-text-tablet"
+        }
+    },
+    "flex-layout.row#shelf-tablet": {
+        "children": [
+            "list-context.product-list#products-shelf-tablet"
+        ]
+    },
+    "list-context.product-list#products-shelf-tablet": {
+        "blocks": [
+            "product-summary.shelf#products-shelf-tablet"
+        ],
+        "children": [
+            "slider-layout#products-slider-tablet"
+        ]
+    },
+    "product-summary.shelf#products-shelf-tablet": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+    "slider-layout#products-slider-tablet": {
+        "props": {
+            "itemsPerPage": {
+                "tablet": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "tabletOnly"
+        }
+    },
+    "stack-layout#marriage-tablet": {
+        "children": [
+            "image#marriage-tablet"
+        ]
+    },
+    "image#marriage-tablet": {
+        "props": {
+            "width": "100%",
+            "src": "assets/imgs/banners/banner3.png"
+        }
+    },
+    "stack-layout#custom-tablet": {
+        "children": [
+            "image#custom-tablet",
+            "rich-text#custom-text-tablet",
+            "link#custom-button-tablet"
+        ]
+    },
+    "image#custom-tablet": {
+        "props": {
+            "width": "100%",
+            "src": "assets/imgs/banners/banner4.png"
+        }
+    },
+    "rich-text#custom-text-tablet": {
+        "props": {
+            "blockClass": "custom-text",
+            "text": "Merci ready to go.\n\nConheça os produtos que podem ser\npersonalizados em 3 dias úteis e\nenviados para todo Brasil."
+        }
+    },
+    "link#custom-button-tablet": {
+        "props": {
+            "blockClass": "custom-button",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "regular"
+            },
+            "href": "/",
+            "label": "IR PARA PRONTA ENTREGA"
+        }
+    },
+    "rich-text#follow-us-tablet": {
+        "props": {
+            "text": "#### SIGA-NOS @merciwithlove",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#merci-about-us-tablet": {
+        "children": [
+            "image#logo-tablet",
+            "rich-text#about-us-text-tablet"
+        ],
+        "props": {
+            "blockClass": "wrapper--about-us"
+        }
+    },
+    "image#logo-tablet": {
+        "props": {
+            "height": 100,
+            "src": "assets/imgs/logos/merci-logo.png"
+        }
+    },
+    "rich-text#about-us-text-tablet": {
+        "props": {
+            "blockClass": "about-us-text",
+            "text": "##### SOBRE A MARCA\nA MerciWithLove é uma marca de artigos de couro 100% natural em que tudo pode ser personalizado de acordo com o desejo de cada cliente.",
+            "textAlignment": "CENTER"
+        }
+    },
+    "flex-layout.row#form-tablet": {
+        "children": [
+            "newsletter-form#tablet"
+        ],
+        "props": {
+            "blockClass": "wrapper--form"
+        }
+    },
+    "newsletter-form#tablet": {
+        "children": [
+            "rich-text#newsletter-title-tablet",
+            "newsletter-input-email#tablet",
+            "newsletter-input-name#tablet",
+            "newsletter-submit#tablet"
+        ],
+        "props": {
+            "blockClass": "wrapper--newsletter"
+        }
+    },
+    "rich-text#newsletter-title-tablet": {
+        "props": {
+            "blockClass": "newsletter-title-text",
+            "text": "![email](assets/imgs/icons/email.png) NEWSLETTER"
+        }
+    },
+    "newsletter-input-email#tablet": {
+        "props": {
+            "placeholderText": "Digite seu e-mail"
+        }
+    },
+    "newsletter-input-name#tablet": {
+        "props": {
+            "placeholderText": "Digite seu nome"
+        }
+    },
+    "newsletter-submit#tablet": {
+        "props": {
+            "submitButtonLabel": "Cadastrar"
+        }
+    }
+}

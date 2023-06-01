@@ -1,0 +1,179 @@
+{
+    "menu-item#ready-to-delivery": {
+        "props": {
+            "id": "menu-item-rtd",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "rtd",
+                "text": "PRONTA ENTREGA"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#rtd"
+        ]
+    },
+    "vtex.menu@2.x:submenu#rtd": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#rtd"
+        ]
+    },
+    "vtex.menu@2.x:menu#rtd": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#rtd"
+        ]
+    },
+    "flex-layout.row#rtd": {
+        "children": [
+            "flex-layout.col#rtd-left",
+            "flex-layout.col#rtd-right"
+        ]
+    },
+    "flex-layout.col#rtd-left": {
+        "children": [
+            "menu-item#rtd-bhbr"
+        ]
+    },
+    "flex-layout.col#rtd-right": {
+        "children": [
+            "rich-text#rtd-right-title",
+            "vtex.menu@2.x:menu#rtd2",
+            "vtex.menu@2.x:menu#rtd3",
+            "rich-text#rtd-right-see-everything"
+        ]
+    },
+    "rich-text#rtd-right-title": {
+        "props": {
+            "text": "BH / BRASIL"
+        }
+    },
+    "vtex.menu@2.x:menu#rtd2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#rtd-wallet",
+            "menu-item#rtd-passport",
+            "menu-item#rtd-jewelry-storage",
+            "menu-item#rtd-backpack-pin",
+            "menu-item#rtd-necessaires"
+        ]
+    },
+    "vtex.menu@2.x:menu#rtd3": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#rtd-wallet",
+            "menu-item#rtd-passport",
+            "menu-item#rtd-jewelry-storage",
+            "menu-item#rtd-backpack-pin",
+            "menu-item#rtd-necessaires"
+        ]
+    },
+    "rich-text#rtd-right-see-everything": {
+        "props": {
+            "text": "Ver Tudo"
+        }
+    },
+    "menu-item#rtd-bhbr": {
+        "props": {
+            "id": "menu-item-rtd-bhbr",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Bhbr",
+                "text": "BH / BRASIL"
+            }
+        }
+    },
+    "menu-item#rtd-wallet": {
+        "props": {
+            "id": "menu-item-rtd-wallet",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Wallet",
+                "text": "Carteira"
+            }
+        }
+    },
+    "menu-item#rtd-passport": {
+        "props": {
+            "id": "menu-item-rtd-passport",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Passport",
+                "text": "Passaporte"
+            }
+        }
+    },
+    "menu-item#rtd-jewelry-storage": {
+        "props": {
+            "id": "menu-item-rtd-jewelry-storage",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Jewelry Storage",
+                "text": "Porta jóias"
+            }
+        }
+    },
+    "menu-item#rtd-backpack-pin": {
+        "props": {
+            "id": "menu-item-rtd-backpack-pin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Pin",
+                "text": "Tag de malas"
+            }
+        }
+    },
+    "menu-item#rtd-necessaires": {
+        "props": {
+            "id": "menu-item-rtd-necessaires",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Necessaires",
+                "text": "Necessaires"
+            }
+        }
+    }
+}

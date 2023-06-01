@@ -1,0 +1,116 @@
+<tr class="w-100 mw6">
+  <td class="pt3">
+    <table class="footer" style="background-color: #F5F1E1;">
+      <tr>
+        <td style="padding-top: 40px; width: 275px;">
+          <img
+            class="pl4"
+            src="https://i.ibb.co/8PQTHsr/brahma-xl-logo.png"
+            alt="Brahma Logo"
+          />
+        </td>
+        <td>
+          <p
+            style="font-weight: 600; font-size: 24px; line-height: 30px; color: #0062AC; text-align: left;"
+          >FALE CONOSCO</p>
+          <p
+            style="color: #555555; font-weight: 400; text-align: left;"
+          >atendimento@choppbrahmaexpress.com.br</p>
+        </td>
+      </tr>
+    </table>
+    <table class="footer" style="background-color: #F5F1E1;">
+      <tr>
+        <td style="padding-top: 20px; width: 275px">
+          <p
+            class="pl4"
+            style="font-weight: 600; font-size: 24px; line-height: 30px; color: #0062AC; text-align: left; display: inline"
+          >
+            REDES SOCIAIS</p>
+          <br />
+          <img
+            class="pl4"
+            style="margin-top: 10px;"
+            src="https://svgshare.com/i/sKP.svg"
+            alt="Facebook Logo"
+          />
+          <img
+            class="pl2"
+            style="margin-top: 10px;"
+            src="https://svgshare.com/i/sNY.svg"
+            alt="Instagram Logo"
+          />
+        </td>
+        <td>
+          <p
+            style="color: #555555; font-weight: 700; text-align: left; margin: 0;"
+          >Atendimento:</p>
+          <p
+            style="color: #0062AC; font-weight: 700; text-align: left; margin: 10px 0"
+          >Segunda a Sexta das 9h às 18h
+          </p>
+          <p
+            style="color: #0062AC; font-weight: 700; text-align: left; margin: 0;"
+          >Sábados das 10h às 17h</p>
+        </td>
+      </tr>
+    </table>
+    <table class="footer" style="background-color: #F5F1E1;">
+      <tr>
+        <td style="padding-top: 20px; width: 275px">
+          <p
+            class="pl4"
+            style="font-weight: 600; font-size: 24px; line-height: 30px; color: #0062AC; text-align: left; display: inline"
+          >
+            SELO DE CONFIANÇA</p>
+          <br />
+          <img
+            class="pl4"
+            style="margin-top: 10px;"
+            src="https://i.ibb.co/yhj56HM/achievement.png"
+            alt="Selo de Confiabilidade"
+          />
+        </td>
+        <td style="display: flex; flex-direction: column;">
+          <p
+            style="color: #555555; font-weight: 700; text-align: left; margin: 0;"
+          >Assistência técnica (atendimento por telefone):</p>
+          <p
+            style="color: #555555; font-weight: 400; text-align: left; margin: 10px 0"
+          >Domingo a Domingo das 9h às 23h
+          </p>
+          <p
+            style="font-weight: 600; font-size: 24px; line-height: 30px; color: #0062AC; text-align: left; display: flex; align-items: center;"
+          >
+            <img
+              style="margin-right: 10px;"
+              src="https://i.ibb.co/tPhJrnG/phone.png"
+              alt="Telefone"
+            />
+            0800 888 1021
+          </p>
+        </td>
+      </tr>
+    </table>
+    <table class="footer-row-3 footer" style="background-color: #DE2A27;">
+      <tr class="footer">
+        <td>
+          <p
+            class="copyright white-90"
+            style="font-weight: 600; font-size: 16px; margin-top: 10px;"
+          >PROIBIDO PARA MENORES DE 18 ANOS BEBA COM MODERAÇÃO.</p>
+          <p class="copyright white-90 ph2" style="padding-bottom: 4px;">
+            Chopp Brahma Express © Todos os direitos reservados
+          </p>
+        </td>
+      </tr>
+    </table>
+    {{#if orders}}
+      {{#if orders.0.shippingData.address.city}}
+      {{#compare orders.0.shippingData.address.city '==' 'Atibaia'}}
+        <img alt="Atibaia's Flag" src="https://www.atibaiasp.com.br/wp-content/uploads/2020/04/bandeira.png" />
+      {{/compare}}
+      {{/if}}
+    {{/if}}
+  </td>
+</tr>

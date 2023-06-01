@@ -1,0 +1,219 @@
+{
+    "responsive-layout.desktop#home": {
+        "children": [
+            "flex-layout.row#1-tablet",
+            "flex-layout.row#2-tablet"
+        ]
+    },
+    "flex-layout.row#2-tablet": {
+        "children": ["flex-layout.row#shelf"],
+        "props": {
+            "blockClass": ["offers-container"]
+        }
+    },
+    "flex-layout.row#1-tablet": {
+        "children": ["disclosure-layout#simple", "disclosure-layout#simple2"],
+        "props": {
+            "blockClass": ["category-filter"]
+        }
+    },
+    "disclosure-layout#simple": {
+        "children": ["disclosure-trigger#simple", "disclosure-content#simple"],
+        "props": {
+            "initialVisibility": "visible"
+        }
+      },
+      "disclosure-state-indicator": {
+        "props": {
+          "Show": "rich-text#answer1",
+          "Hide": "rich-text#answer3"
+        }
+      },
+      "disclosure-trigger#simple": {
+        "children": ["rich-text#question"],
+        "props": {
+            "Show": "rich-text#answer3",
+            "Hide": "rich-text#answer4",
+            "blockClass": ["dropdown-category-title", "dropdown-category-upper-title"]
+        }
+      },
+      "disclosure-content#simple": {
+        "children": ["rich-text#answer1", "rich-text#answer2", "rich-text#answer3", "rich-text#answer4"]
+      },
+      "rich-text#question": {
+        "props": {
+          "text": "Especial"
+        }
+      },
+      "rich-text#answer1": {
+        "props": {
+          "text": "Especial Carnes",
+          "blockClass": "upper-category"
+        }
+      },
+      "rich-text#answer2": {
+        "props": {
+          "text": "Pro Treino",
+          "blockClass": "upper-category"
+        }
+      },
+      "rich-text#answer3": {
+        "props": {
+          "text": "Seleção de ofertas",
+          "blockClass": "upper-category"
+        }
+      },
+      "rich-text#answer4": {
+        "props": {
+          "text": "Vinhos do mês",
+          "blockClass": "upper-category"
+        }
+      },
+      "disclosure-layout#simple2": {
+        "children": ["disclosure-trigger#simple2", "disclosure-content#simple2"],
+        "props": {
+            "initialVisibility": "visible"
+        }
+      },
+      "disclosure-trigger#simple2": {
+        "children": ["rich-text#question2"],
+        "props": {
+            "Show": "rich-text#answer32",
+            "Hide": "rich-text#answer42",
+            "blockClass": "dropdown-category-title"
+        }
+      },
+      "disclosure-content#simple2": {
+        "children": ["rich-text#answer12", "rich-text#answer22", "rich-text#answer32", "rich-text#answer42", "rich-text#answer52", "rich-text#answer62", "rich-text#answer72", "rich-text#answer82", "rich-text#answer92", "rich-text#answer102", "rich-text#answer112", "rich-text#answer122", "rich-text#answer132", "rich-text#answer142", "rich-text#answer152", "rich-text#answer162", "rich-text#answer172", "rich-text#answer182", "rich-text#answer192", "rich-text#answer202", "rich-text#answer212", "rich-text#answer222", "rich-text#answer232", "rich-text#answer242", "rich-text#answer252"]
+      },
+      "rich-text#question2": {
+        "props": {
+          "text": "Categorias"
+        }
+      },
+      "rich-text#answer12": {
+        "props": {
+          "text": "Bebê e Infantil"
+        }
+      },
+      "rich-text#answer22": {
+        "props": {
+          "text": "Bebidas"
+        }
+      },
+      "rich-text#answer32": {
+        "props": {
+          "text": "Biscoitos e Snacks"
+        }
+      },
+      "rich-text#answer42": {
+        "props": {
+          "text": "Casa e Cozinha"
+        }
+      },
+      "rich-text#answer52": {
+        "props": {
+          "text": "Cervejas"
+        }
+      },
+      "rich-text#answer62": {
+        "props": {
+          "text": "Confeitaria"
+        }
+      },
+      "rich-text#answer72": {
+        "props": {
+          "text": "Destilados"
+        }
+      },
+      "rich-text#answer82": {
+        "props": {
+          "text": "Floricultura"
+        }
+      },
+      "rich-text#answer92": {
+        "props": {
+          "text": "Frios"
+        }
+      },
+      "rich-text#answer102": {
+        "props": {
+          "text": "Higiene e Beleza"
+        }
+      },
+      "rich-text#answer112": {
+        "props": {
+          "text": "Hortifruti"
+        }
+      },
+      "rich-text#answer122": {
+        "props": {
+          "text": "Iogurti"
+        }
+      },
+      "rich-text#answer132": {
+        "props": {
+          "text": "Laticínios"
+        }
+      },
+      "rich-text#answer142": {
+        "props": {
+          "text": "Limpeza"
+        }
+      },
+      "rich-text#answer152": {
+        "props": {
+          "text": "Massas e Molhos"
+        }
+      },
+      "rich-text#answer162": {
+        "props": {
+          "text": "Mercearia"
+        }
+      },
+      "rich-text#answer172": {
+        "props": {
+          "text": "Natal"
+        }
+      },
+      "rich-text#answer182": {
+        "props": {
+          "text": "Nossa Pizzaria"
+        }
+      },
+      "rich-text#answer192": {
+        "props": {
+          "text": "Padaria"
+        }
+      },
+      "rich-text#answer202": {
+        "props": {
+          "text": "Páscoa"
+        }
+      },
+      "rich-text#answer212": {
+        "props": {
+          "text": "Peixaria"
+        }
+      },
+      "rich-text#answer222": {
+        "props": {
+          "text": "Pronto para Comer"
+        }
+      },
+      "rich-text#answer232": {
+        "props": {
+          "text": "Sorvetes"
+        }
+      },
+      "rich-text#answer242": {
+        "props": {
+          "text": "Sushi"
+        }
+      },
+      "rich-text#answer252": {
+        "props": {
+          "text": "Vinhos e Espumantes"
+        }
+      }
+}

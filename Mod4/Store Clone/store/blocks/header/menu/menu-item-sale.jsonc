@@ -1,0 +1,187 @@
+{
+    "menu-item#sale": {
+        "props": {
+            "id": "menu-item-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/#/",
+                "noFollow": false,
+                "tagTitle": "sale",
+                "text": "SALE"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#sale"
+        ]
+    },
+    "vtex.menu@2.x:submenu#sale": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#sale"
+        ]
+    },
+    "vtex.menu@2.x:menu#sale": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#sale"
+        ]
+    },
+    "flex-layout.row#sale": {
+        "children": [
+            "flex-layout.col#sale-right"
+        ]
+    },
+    "flex-layout.col#sale-right": {
+        "children": [
+            "rich-text#sale-right-title",
+            "vtex.menu@2.x:menu#sale2"
+        ]
+    },
+    "rich-text#sale-right-title": {
+        "props": {
+            "text": "DIA A DIA"
+        }
+    },
+    "vtex.menu@2.x:menu#sale2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#sale-handbag",
+            "menu-item#sale-travel",
+            "menu-item#sale-necessaires",
+            "menu-item#sale-utility",
+            "menu-item#sale-children",
+            "menu-item#sale-masculine",
+            "menu-item#sale-others"
+        ]
+    },
+    "menu-item#sale-day-by-day": {
+        "props": {
+            "id": "menu-item-day-by-day",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Day by Day",
+                "text": "DIA A DIA"
+            }
+        }
+    },
+    "menu-item#sale-handbag": {
+        "props": {
+            "id": "menu-item-sale-handbag",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Handbag",
+                "text": "Bolsas"
+            }
+        }
+    },
+    "menu-item#sale-travel": {
+        "props": {
+            "id": "menu-item-sale-travel",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Travel",
+                "text": "Viagem"
+            }
+        }
+    },
+    "menu-item#sale-necessaires": {
+        "props": {
+            "id": "menu-item-sale-necessaires",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Necessaires",
+                "text": "Necessaires"
+            }
+        }
+    },
+    "menu-item#sale-utility": {
+        "props": {
+            "id": "menu-item-sale-utility",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Utilities",
+                "text": "Utilitários"
+            }
+        }
+    },
+    "menu-item#sale-children": {
+        "props": {
+            "id": "menu-item-sale-children",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Children",
+                "text": "Infantil"
+            }
+        }
+    },
+    "menu-item#sale-masculine": {
+        "props": {
+            "id": "menu-item-sale-masculine",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Masculine",
+                "text": "Masculino"
+            }
+        }
+    },
+    "menu-item#sale-others": {
+        "props": {
+            "id": "menu-item-sale-others",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Others",
+                "text": "Outros"
+            }
+        }
+    }
+    
+}

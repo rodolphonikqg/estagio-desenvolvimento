@@ -1,0 +1,533 @@
+{
+	"package": null,
+	"subjectItemAttachment": {
+		"item": "LAVADORA SAMSUNG 1K ...",
+		"totalItems": 1
+	},
+	"cancellationReason": null,
+	"items": [
+		{
+			"additionalInfo": {
+				"dimension": {
+					"cubicweight": 833.3333,
+					"height": 200,
+					"length": 200,
+					"weight": 1000,
+					"width": 100
+				},
+				"categoriesIds": "/1/",
+				"productClusterId": "139",
+				"commercialConditionId": "4",
+				"brandName": "Integração",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "310118456",
+			"priceTable": null,
+			"priceValidUntil": "2021-06-24T17:54:33.60268Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"costPrice": null,
+			"uniqueId": "4B5BFA0F71C24543AA88A80C78DF36AD",
+			"id": "310118456",
+			"productId": "4231",
+			"productRefId": "982478W-9707328",
+			"refId": "9707328",
+			"ean": null,
+			"name": "LAVADORA SAMSUNG 1K 10KG",
+			"skuName": "LAVADORA SAMSUNG 1K 10KG",
+			"modalType": "WHITE_GOODS",
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"priceDefinitions": null,
+			"price": 1200,
+			"listPrice": 1200,
+			"manualPrice": null,
+			"sellingPrice": 1200,
+			"orderRewardStatus": null,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": "2020-04-30T00:00:00",
+			"productCategoryIds": "/1/",
+			"productCategories": {
+				"1": "01 - Integração"
+			},
+			"quantity": 1,
+			"seller": "carrefourbrqa316",
+			"sellerChain": [
+				"carrefourbrqa316"
+			],
+			"imageUrl": "http://carrefourbrqa.vteximg.com.br/arquivos/ids/156065-55-55/9707328-9707328_1.jpg?v=637205959508530000",
+			"detailUrl": "/lavadora-samsung-1k-10kg-9707328/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [
+				{
+					"type": "Garantia Estendida",
+					"id": "3",
+					"name": "Garantia Estendida",
+					"allowGiftMessage": false,
+					"attachmentOfferings": [],
+					"price": 0
+				}
+			],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": ""
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=SLR&sc=1&an=carrefourbrqa316",
+			"id": "carrefourbrqa316",
+			"name": "carrefourbrqa316",
+			"logo": null
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "4510be975b6b40f592f75a4c79b4eda4",
+	"sequence": "500002837",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "9c105f97-ee1d-4297-b59d-e6fbde9d071b",
+	"hostName": "carrefourbrqa",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1042183387361-02",
+	"orderGroup": "1042183387361",
+	"state": "payment-pending",
+	"isCheckedIn": false,
+	"sellerOrderId": "SLR-1042183387361-02",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 1200,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "Total dos Itens",
+			"value": 1200
+		},
+		{
+			"id": "Discounts",
+			"name": "Total dos Descontos",
+			"value": 0
+		},
+		{
+			"id": "Shipping",
+			"name": "Total do Frete",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "Total da Taxa",
+			"value": 0
+		}
+	],
+	"clientProfileData": {
+		"email": "c90e90a3834840f2a55934f51527f5e7@ct.vtex.com.br",
+		"firstName": "Carafizi",
+		"lastName": "Gabriel",
+		"document": "45473103944",
+		"documentType": "cpf",
+		"phone": "+559835049858",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"profileCompleteOnLoading": true,
+		"profileErrorOnLoading": false,
+		"customerClass": null
+	},
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [],
+		"teaser": []
+	},
+	"shippingData": {
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "Carafizi Gabriel",
+			"addressId": "SPTINS",
+			"isDisposable": true,
+			"postalCode": "02063-000",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "BRA",
+			"street": "Avenida Morvan Dias de Figueiredo",
+			"number": "3177",
+			"neighborhood": "Vila Guilherme",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-46.59931659999999,
+				-23.5223062
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"selectedSla": "Click & Retire (SPTINS)",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"addressId": "SPTINS",
+				"slas": [
+					{
+						"id": "Click & Retire (SPTINS)",
+						"deliveryChannel": "pickup-in-point",
+						"name": "Click & Retire (SPTINS)",
+						"deliveryIds": [
+							{
+								"courierId": "1",
+								"warehouseId": "316_1",
+								"dockId": "1",
+								"courierName": "Click & Retire",
+								"quantity": 1,
+								"totalListPrice": 0
+							}
+						],
+						"shippingEstimate": "1bd",
+						"shippingEstimateDate": "2020-06-25T16:30:00",
+						"lockTTL": "12d",
+						"availableDeliveryWindows": [
+							{
+								"startDateUtc": "2020-06-25T16:30:00+00:00",
+								"endDateUtc": "2020-06-25T17:30:00+00:00",
+								"price": 0,
+								"lisPrice": 0,
+								"tax": 0
+							}
+						],
+						"deliveryWindow": {
+							"startDateUtc": "2020-06-25T16:30:00+00:00",
+							"endDateUtc": "2020-06-25T17:30:00+00:00",
+							"price": 0,
+							"lisPrice": 0,
+							"tax": 0
+						},
+						"price": 0,
+						"listPrice": 0,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": true,
+							"friendlyName": "Instore - Carrefour Hipermercado Tietê",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "SPTINS",
+								"isDisposable": true,
+								"postalCode": "02063-000",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Avenida Morvan Dias de Figueiredo",
+								"number": "3177",
+								"neighborhood": "Vila Guilherme",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-46.59931659999999,
+									-23.5223062
+								]
+							},
+							"additionalInfo": "",
+							"dockId": null
+						},
+						"pickupPointId": "carrefourbrqa316_SPTINS",
+						"pickupDistance": 0.0005490800249390304,
+						"polygonName": null,
+						"transitTime": "1bd"
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"itemId": "310118456",
+				"deliveryChannels": [
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				]
+			}
+		],
+		"selectedAddresses": [
+			{
+				"addressType": "pickup",
+				"receiverName": "Carafizi Gabriel",
+				"addressId": "SPTINS",
+				"isDisposable": true,
+				"postalCode": "02063-000",
+				"city": "São Paulo",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Avenida Morvan Dias de Figueiredo",
+				"number": "3177",
+				"neighborhood": "Vila Guilherme",
+				"complement": "",
+				"reference": null,
+				"geoCoordinates": [
+					-46.59931659999999,
+					-23.5223062
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressType": "pickup",
+				"receiverName": "Carafizi Gabriel",
+				"addressId": "SPTINS",
+				"isDisposable": true,
+				"postalCode": "02063-000",
+				"city": "São Paulo",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Avenida Morvan Dias de Figueiredo",
+				"number": "3177",
+				"neighborhood": "Vila Guilherme",
+				"complement": "",
+				"reference": null,
+				"geoCoordinates": [
+					-46.59931659999999,
+					-23.5223062
+				]
+			}
+		],
+		"pickupPoints": [
+			{
+				"friendlyName": "Carrefour Hipermercado Tietê",
+				"address": {
+					"addressType": "pickup",
+					"receiverName": null,
+					"addressId": "SPT",
+					"isDisposable": true,
+					"postalCode": "02063-000",
+					"city": "São Paulo",
+					"state": "SP",
+					"country": "BRA",
+					"street": "Avenida Morvan Dias de Figueiredo",
+					"number": "3177",
+					"neighborhood": "Vila Guilherme",
+					"complement": "",
+					"reference": null,
+					"geoCoordinates": [
+						-46.59931659999999,
+						-23.5223062
+					]
+				},
+				"additionalInfo": "",
+				"id": "carrefourbrqa316_SPT",
+				"businessHours": [
+					{
+						"DayOfWeek": 1,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 2,
+						"OpeningTime": "00:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 3,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 4,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 5,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					}
+				]
+			},
+			{
+				"friendlyName": "Instore - Carrefour Hipermercado Tietê",
+				"address": {
+					"addressType": "pickup",
+					"receiverName": null,
+					"addressId": "SPTINS",
+					"isDisposable": true,
+					"postalCode": "02063-000",
+					"city": "São Paulo",
+					"state": "SP",
+					"country": "BRA",
+					"street": "Avenida Morvan Dias de Figueiredo",
+					"number": "3177",
+					"neighborhood": "Vila Guilherme",
+					"complement": "",
+					"reference": null,
+					"geoCoordinates": [
+						-46.59931659999999,
+						-23.5223062
+					]
+				},
+				"additionalInfo": "",
+				"id": "carrefourbrqa316_SPTINS",
+				"businessHours": [
+					{
+						"DayOfWeek": 1,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 2,
+						"OpeningTime": "00:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 3,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 4,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					},
+					{
+						"DayOfWeek": 5,
+						"OpeningTime": "08:00:00",
+						"ClosingTime": "22:00:00"
+					}
+				]
+			}
+		]
+	},
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "B760D4AA9FCC4232A41B982EE1C350D6",
+				"merchantName": "CARREFOURBRQA",
+				"payments": [
+					{
+						"id": "4CA9D2E7F0D9414EA61913CACC96548A",
+						"paymentSystem": "6",
+						"paymentSystemName": "Boleto Bancário",
+						"value": 4380,
+						"installments": 1,
+						"connectorResponses": {
+							"tid": null,
+							"returnCode": "1",
+							"message": null,
+							"nsu": null
+						},
+						"referenceValue": 4380,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": "https://transactionsandbox.pagador.com.br/post/pagador/reenvia.asp/1c11109b-1af9-40c2-9c2c-10b09f5da3af",
+						"koinUrl": null,
+						"tid": null,
+						"redemptionCode": null,
+						"giftCardId": null,
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"group": "bankInvoice",
+						"dueDate": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null
+					}
+				],
+				"sharedTransaction": true
+			}
+		]
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"invoiceData": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": null,
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "6e8c8096a98b49f5917689ced9712fdd@ct.vtex.com.br",
+	"creationDate": "2020-06-24T17:56:32.5132745Z",
+	"lastChange": "2020-06-24T17:56:40.859881Z",
+	"timeZoneCreationDate": "2020-06-24T14:56:32.5132745",
+	"timeZoneLastChange": "2020-06-24T14:56:40.859881",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "carrefourbrqa",
+		"AccountName": "carrefourbrqa",
+		"Cnpj": "99999999999999",
+		"Id": "e051e15b-745e-47d0-beea-5a1c01a233d5",
+		"IsActive": true,
+		"IsOperating": false,
+		"OperationDate": null,
+		"CompanyName": "Carrefour Comércio e Indústria Ltda",
+		"TradingName": "Carrefour Comércio e Indústria Ltda",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licences": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex"
+	}
+}

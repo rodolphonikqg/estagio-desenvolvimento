@@ -1,0 +1,155 @@
+/* header */
+.carrefourLogo {
+  display: block;
+  margin: 0 auto;
+}
+.intro p {
+  text-align: left;
+  font-size: $font-size-base;
+}
+.intro td > a {
+  color: $link-color;
+}
+.containerCarina {
+  text-decoration: none;
+  background-image: url("http://carrefourbr.vteximg.com.br/arquivos/et-carina-generic.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 2%;
+  padding-bottom: 25.66667%;
+}
+
+@media (min-width: 550px) {
+  .containerCarina {
+    font-size: 13px;
+  }
+
+  .containerCarina strong {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 550px) {
+  .containerCarina {
+    line-height: 12px;
+    font-size: 8px;
+  }
+  .containerCarina strong {
+    font-size: $font-size-base;
+  }
+}
+
+/* items */
+.itemsImageSize {
+  width: 100px;
+  height: 100px;
+}
+.fontReset {
+  font-size: $font-size-base;
+  font-weight: bold;
+}
+.smallText {
+  font-size: 12px;
+}
+
+/* custom colors */
+
+.custom-red {
+  color: $color-red;
+}
+.custom-green {
+  color: $color-green;
+}
+.bg-custom-red {
+  background-color: $color-red;
+}
+.bg-custom-orange {
+  background-color: $button-bg-color;
+}
+.bg-custom-green {
+  background-color: $color-green;
+}
+.bg-custom-blue {
+  background-color: $link-color;
+}
+
+/* header */
+.header {
+  font-size: $font-size-base;
+  width: 100%;
+}
+
+/* foooter */
+.footer {
+  font-size: $font-size-base;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+}
+.footer strong {
+  text-align: center;
+  font-weight: bold;
+  color: $bold-color;
+}
+.footer hr {
+  width: 50%;
+  background: #e4e4e4;
+}
+.footer a {
+  font-weight: normal;
+  text-decoration: underline;
+  color: $link-color-light;
+}
+
+.footer-subtitle {
+  color: #68478d;
+}
+
+.copyright {
+  margin: 3px;
+  font-size: 10px;
+}
+
+.footer-row-1 {
+  background-color: #f2f2f2;
+}
+
+.footer-row-2 {
+  background-color: #68478d;
+}
+
+.footer-row-3 {
+  background-color: #ad96dc;
+}
+
+/* line */
+
+.line {
+  height: 1px;
+  border: none;
+  background-color: #BFBFBF;
+  color: #BFBFBF;
+}
+
+/* Access Order Button */
+
+.access-order-button {
+  width: 190px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #68478D;
+  border-radius: 25px;
+  font-weight: bold;
+  color: #68478d;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.itemsImageSize {
+  width: 100px;
+  height: 100px;
+}

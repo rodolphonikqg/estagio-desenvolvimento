@@ -1,0 +1,10 @@
+((i18n.shipping.lowercase.in))
+<div class="f3 mt1">
+  <h4>{{formatDate deliveryWindow.startDateUtc}}</h4>
+</div>
+<div class="f6 pb2">
+  ((i18n.common.lowercase.between))
+  {{formatTime deliveryWindow.startDateUtc}}
+  ((i18n.common.lowercase.and))
+  {{formatTime deliveryWindow.endDateUtc}}
+</div>

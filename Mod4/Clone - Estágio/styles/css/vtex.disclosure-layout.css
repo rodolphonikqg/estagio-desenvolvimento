@@ -1,0 +1,35 @@
+.trigger--dropdown-category-title {
+    background-color: #F4F7F7 !important;
+    border: none;
+    padding: 0 0 0 1rem;
+}
+
+.trigger--dropdown-category-title 
+:global(.vtex-rich-text-0-x-container) 
+:global(.vtex-rich-text-0-x-wrapper) 
+:global(.vtex-rich-text-0-x-paragraph) {
+    color: #5E696D !important;
+    font-weight: 700 !important;
+    margin: 5px 0;
+}
+
+.content--visible 
+:global(.vtex-rich-text-0-x-container) 
+:global(.vtex-rich-text-0-x-wrapper) 
+:global(.vtex-rich-text-0-x-paragraph) {
+    margin: 0;
+    font-weight: bold;
+}
+
+.content--visible 
+:global(.vtex-rich-text-0-x-container) 
+:global(.vtex-rich-text-0-x-wrapper) 
+:global(.vtex-rich-text-0-x-paragraph):hover {
+    text-decoration: underline;
+}
+
+.content 
+:global(.vtex-rich-text-0-x-container) {
+    padding: 1rem 0 1rem 1.5rem;
+    height: 24px;
+}

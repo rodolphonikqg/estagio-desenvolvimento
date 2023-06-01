@@ -1,0 +1,88 @@
+{{#richShippingData shippingData}}
+{{#group logisticsInfo by="packageId"}}
+{{#each items}}
+{{#compare @index '==' 0}}
+<div class="mw6 pt2 pb2">
+  <!-- Change border color for each delivery channel -->
+​
+  <div class="ba br2 b--moon-gray">
+​
+    <div class="ph3 pt2 b--moon-gray">
+      <!-- Title: delivery or pickup -->
+      
+​
+      <!-- Quantity of items -->
+      {{#eq ../items.length 1}}
+        {{#each ../../../items}}
+          {{#compare id '==' ../../items.0.itemId}}
+            {{#eq ../selectedDeliveryChannel "pickup-in-point"}}
+              <img class="pa1 mb2 db" src="http://carrefourbr.vteximg.com.br/arquivos/et-retire-txt.png"
+                  alt="Retire na Loja" />
+                  <p class="mt0 mb2">Retire na loja o produto:</p>
+            {{else}}
+              <img class="pa1 mb2 db" src="http://carrefourbr.vteximg.com.br/arquivos/et-receba-txt.png"
+                  alt="Receba em Casa" />
+                  <p class="mt0 mb2">Receba em sua casa o produto:</p>
+            {{/eq}}
+            {{name}}
+          {{/compare}}
+        {{/each}}
+      {{else}}
+        {{#eq selectedDeliveryChannel "pickup-in-point"}}
+          <img class="pa1 mb2 db" src="http://carrefourbr.vteximg.com.br/arquivos/et-retire-txt.png"
+              alt="Retire na Loja" />
+              Retire na loja 
+        {{else}}
+          <img class="pa1 mb2 db" src="http://carrefourbr.vteximg.com.br/arquivos/et-receba-txt.png"
+              alt="Receba em Casa" />
+              Receba em sua casa 
+        {{/eq}}
+        {{../items.length}}
+        ((i18n.common.lowercase.items))
+      {{/eq}}
+​
+      <!-- Scheduled shipping -->
+      {{#if deliveryWindow}}
+      <!-- partial:shipping-summary/estimate-scheduled.hbs -->
+      <!-- partial -->
+      <!-- Shipping estimate -->
+      {{else}}
+      {{#if shippingEstimateDate}}
+      <!-- partial:shipping-summary/estimate-date.hbs -->
+      <!-- partial -->
+      {{else}}
+      <!-- partial:shipping-summary/estimate-range.hbs -->
+      <!-- partial -->
+      {{/if}}
+      {{/if}}
+    </div>
+​
+    <!-- Change border color for each delivery channel -->
+    <div class="ph3 pv2 bt mid-gray bg-light-gray b--moon-gray">
+      <!-- Show Pickup Store name -->
+      {{#eq selectedDeliveryChannel "pickup-in-point"}}
+      {{#each slas}}
+      {{#compare ../selectedSla '==' id}}
+      {{pickupStoreInfo.friendlyName}}
+      {{/compare}}
+      {{/each}}
+      {{else}}
+      <!-- Show gift owner's address info -->
+      {{#if ../../../giftRegistryData}}
+      {{../../../giftRegistryData.description}}
+      <!-- Show consumer's address summary -->
+      {{else}}
+      {{#each ../../availableAddresses}}
+      {{#eq ../addressId addressId}}
+      {{street}}, {{number}}
+      {{/eq}}
+      {{/each}}
+      {{/if}}
+      {{/eq}}
+    </div>
+  </div>
+</div>
+{{/compare}}
+{{/each}}
+{{/group}}
+{{/richShippingData}}

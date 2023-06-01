@@ -1,0 +1,39 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  {{#each totals}}
+    {{#if value}}
+      <tr style="display: flex; justify-content: space-between; width: 60%; margin-left: 32px">
+        <td>
+          {{#eq value 120000}}
+            ((i18n.payment.totalPrice))
+          {{/eq}}
+          {{#eq value 1499}}
+            ((i18n.payment.totalPrice))
+          {{/eq}}
+          {{#eq ../subjectItemAttachment.totalItems 1}}
+            {{else}}
+            ((i18n.common.items))
+          {{/eq}}
+          {{#eq id "Shipping"}}((i18n.common.shipping)){{/eq}}
+          {{#eq id "Tax"}}((i18n.common.taxes)){{/eq}}
+          {{#eq id "Discounts"}}((i18n.common.discounts)){{/eq}}
+        </td>
+        <td>((i18n.common.currency)) {{formatCurrency value}}</td>
+      </tr>
+    {{else}}
+      {{#eq id "Shipping"}}
+        <tr style="display: flex; justify-content: space-between; width: 60%; margin-left: 32px">
+          <td>
+            ((i18n.common.shipping))
+          </td>
+          <td>Grátis</td>
+        </tr>
+      {{/eq}}
+    {{/if}}
+  {{/each}}
+  {{#if value}}
+    <tr style="display: flex; justify-content: space-between; width: 60%; margin-left: 32px; font-weight: bold;">
+      <td>((i18n.common.total))</td>
+      <td>((i18n.common.currency)) {{formatCurrency value}}</td>
+    </tr>
+  {{/if}}
+</table>

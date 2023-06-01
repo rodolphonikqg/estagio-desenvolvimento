@@ -1,0 +1,55 @@
+.flexRow--wrapper--top-bar {
+    background: #73708B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+}
+
+.flexRowContent--wrapper--about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("assets/imgs/backgrounds/merci-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+}
+
+.flexRow--wrapper--about-us, .flexRow--wrapper--form, .flexRow--payment-methods, .flexRow--credits {
+    background: #F0F0F0;
+}
+
+.flexRowContent--footer-icons {
+    display: flex;
+    justify-content: center;
+    max-width: 225px;
+    margin: 0 auto;
+}
+
+.flexRowContent--main-header {
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.flexRow--menu-row {
+    font-weight: 300;
+}
+
+.flexRow--category-container {
+    margin: 0 12.5px;
+}
+
+.flexCol--category-items 
+.flexColChild--category-items 
+:global(.vtex-menu-2-x-menuContainerNav) 
+:global(.vtex-menu-2-x-menuContainer) 
+:global(.vtex-menu-2-x-menuItem) 
+:global(.vtex-menu-2-x-styledLinkContainer) 
+:global(.vtex-menu-2-x-styledLink) 
+:global(.vtex-menu-2-x-styledLinkContent) {
+    font-weight: bold;
+}

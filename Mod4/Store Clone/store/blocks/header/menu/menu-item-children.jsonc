@@ -1,0 +1,166 @@
+{
+    "menu-item#children": {
+        "props": {
+            "id": "menu-item-children",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/#/",
+                "noFollow": false,
+                "tagTitle": "Children",
+                "text": "INFANTIL"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#children"
+        ]
+    },
+    "vtex.menu@2.x:submenu#children": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#children"
+        ]
+    },
+    "vtex.menu@2.x:menu#children": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#children"
+        ]
+    },
+    "flex-layout.row#children": {
+        "children": [
+            "flex-layout.col#children-left",
+            "flex-layout.col#children-right"
+        ]
+    },
+    "flex-layout.col#children-left": {
+        "children": [
+            "menu-item#children-day-by-day",
+            "menu-item#children-travels"
+        ]
+    },
+    "flex-layout.col#children-right": {
+        "children": [
+            "rich-text#children-right-title",
+            "vtex.menu@2.x:menu#children2",
+            "rich-text#children-right-custom-kit"
+        ]
+    },
+    "rich-text#children-right-title": {
+        "props": {
+            "text": "DIA A DIA"
+        }
+    },
+    "vtex.menu@2.x:menu#children2": {
+        "props": {
+            "orientation": "horizontal"
+        },
+        "children": [
+            "menu-item#children-handbag",
+            "menu-item#children-vaccine-wallet",
+            "menu-item#children-doc-storage",
+            "menu-item#children-utility"
+        ]
+    },
+    "rich-text#children-right-custom-kit": {
+        "props": {
+            "text": "Monte o seu Kit"
+        }
+    },
+    "menu-item#children-day-by-day": {
+        "props": {
+            "id": "menu-item-day-by-day",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Day by Day",
+                "text": "DIA A DIA"
+            }
+        }
+    },
+    "menu-item#children-travels": {
+        "props": {
+            "id": "menu-item-children-travels",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Travels",
+                "text": "VIAGEM"
+            }
+        }
+    },
+    "menu-item#children-handbag": {
+        "props": {
+            "id": "menu-item-children-handbag",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Handbag",
+                "text": "Bolsas e Mochilas"
+            }
+        }
+    },
+    "menu-item#children-vaccine-wallet": {
+        "props": {
+            "id": "menu-item-children-vaccine-wallet",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Vaccine Wallet",
+                "text": "Carteira de vacina"
+            }
+        }
+    },
+    "menu-item#children-doc-storage": {
+        "props": {
+            "id": "menu-item-children-doc-storage",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Doc Storage",
+                "text": "Porta documentos"
+            }
+        }
+    },
+    "menu-item#children-utility": {
+        "props": {
+            "id": "menu-item-children-utility",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Utilities",
+                "text": "Utilitários"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+body {
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.App {
+  color: lightgray;
+  width: 350px;
+  height: 630px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+ul {
+  margin: 0;
+  padding: 10px 0;
+  height: 325px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: #E2DFD2;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #FFFFF0;
+  outline: none;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+}

@@ -1,0 +1,1 @@
+# dev-interns.store-theme-training

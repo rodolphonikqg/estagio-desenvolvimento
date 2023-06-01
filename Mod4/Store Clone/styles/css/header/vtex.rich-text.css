@@ -1,0 +1,65 @@
+.container--text__top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+}
+
+.paragraph--text__top-bar {
+    font-size: 12px;
+    color: #FFF;
+    margin: 0;
+}
+
+.wrapper--custom-text {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.wrapper--about-us-text {
+    font-size: .67rem;
+}
+
+.paragraph--newsletter-title-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 2.5px;
+    font-size: 25px;
+    color: #73708b;
+}
+
+.paragraph--footer-infos {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper--footer {
+    padding: 0;
+}
+
+.heading--category-title-text {
+    color: #73708B;
+}
+
+.wrapper--search-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.paragraph--search-icon {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .paragraph--newsletter-title-text {
+        margin: 5px 0 0 0;
+    }
+
+    .paragraph--newsletter-title-text {
+        font-size: 15px;
+    }
+}

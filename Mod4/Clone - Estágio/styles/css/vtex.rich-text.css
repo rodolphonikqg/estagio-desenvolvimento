@@ -1,0 +1,199 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelf-title {
+  color: #FFF;
+  justify-content: center;
+  text-align: center;
+  background: #32593B;
+  margin: 10px;
+}
+
+.headingLevel2--shelf-title {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--footer-email {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  color: #FFF;
+  align-items: center;
+}
+
+.wrapper--footer-advert {
+  padding-bottom: 5px;
+}
+
+.paragraph--footer-advert {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  color: #FFF;
+  align-items: center;
+  font-size: .525rem;
+}
+
+.image--footer-email {
+  height: 20px;
+}
+
+.container--lower-menu-title {
+  justify-content: flex-start;
+}
+
+.container--slider-title {
+  justify-content: center;
+  color: #FFF;
+}
+
+.paragraph--slider-title {
+  margin: .325rem 0;
+  font-size: .9rem;
+  font-weight: bold;
+}
+.container--product-btns {
+  justify-content: center;
+}
+.paragraph--product-btns-minus, .paragraph--product-btns-plus {
+  font-weight: bold;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.paragraph--lower-menu-title {
+  font-size: .75rem;
+}
+
+.paragraph--lower-menu-title:hover, .container--lower-menu-title:hover {
+  color: #fff;
+}
+
+.container--lower-menu-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper--upper-category {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrapper--green-banner {
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph--green-banner {
+  height: 100%;
+  padding: 16px 0;
+  margin: 16px 0 0 0;
+  background: #32593B;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+
+  .paragraph--footer-advert {
+    font-size: .625rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .paragraph--lower-menu-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container--green-banner, .wrapper--green-banner, .paragraph--green-banner, .image--green-banner {
+    width: 100%;
+  }
+
+  .paragraph--login-button {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .paragraph:hover {
+    cursor: pointer;
+  }
+}

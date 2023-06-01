@@ -1,0 +1,58 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.acceptedPaymentMethodContainer {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.wrapper--footer-infos {
+  margin: 0;
+  padding: 0;
+}
+
+.socialNetworkImage {
+  background: #FFF;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .footerLayout 
+  :global(.vtex-flex-layout-0-x-flexRow) 
+  :global(.vtex-store-components-3-x-container)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footerLayout 
+  :global(.vtex-flex-layout-0-x-flexRow) 
+  :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+
+  .socialNetworkImage {
+    margin-left: 0;
+  }
+
+  .socialNetworkWrapper {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .socialNetworkWrapper {
+    margin-left: 0px;
+  }
+}

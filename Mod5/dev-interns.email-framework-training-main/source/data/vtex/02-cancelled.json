@@ -1,0 +1,439 @@
+{
+	"package": null,
+	"subjectItemAttachment": {
+		"item": "Teste Luiz SKU",
+		"totalItems": 1
+	},
+	"cancellationReason": null,
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/27/",
+				"productClusterId": "141",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 1,
+					"height": 1,
+					"length": 1,
+					"weight": 1,
+					"width": 1
+				},
+				"brandName": "Test Brand name",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "10040",
+			"priceTable": null,
+			"priceValidUntil": "2022-06-21T14:00:57Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": "",
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:acctglobal:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/10040",
+			"uniqueId": "C8B6F5FAC6B04A9AB9C74CE95A0A0728",
+			"id": "10040",
+			"productId": "2003631",
+			"productRefId": "",
+			"refId": "3",
+			"ean": "5654",
+			"name": "Teste Luiz SKU",
+			"skuName": "SKU",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 4499,
+			"listPrice": 4499,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 4499,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/27/",
+			"productCategories": {
+				"27": "Teste Priolli"
+			},
+			"quantity": 1,
+			"seller": "1",
+			"sellerChain": [
+				"1"
+			],
+			"imageUrl": "http://acctglobal.vteximg.com.br/arquivos/ids/155636-200-200/sda.png?v=637568508533330000",
+			"detailUrl": "/luiz/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [
+				{
+					"name": "Personalizacao",
+					"required": false,
+					"schema": {
+						"base64image": {
+							"maximumNumberOfCharacters": 2000000000,
+							"domain": []
+						}
+					}
+				}
+			],
+			"offerings": [
+				{
+					"type": "CentavoRestante",
+					"id": "2",
+					"name": "CentavoRestante",
+					"allowGiftMessage": false,
+					"attachmentOfferings": [],
+					"price": 1
+				}
+			],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": "",
+			"priceDefinition": {
+				"calculatedSellingPrice": 4499,
+				"total": 4499,
+				"sellingPrices": [
+					{
+						"value": 4499,
+						"quantity": 1
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=acctglobal",
+			"id": "1",
+			"name": "ACCT CONSULTORIA E DESENVOLVIMENTO LTDA",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "10ddf178539248a49039b71dbc8159a8",
+	"sequence": "506231",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "34257d72-6004-457f-aebb-b187e6187a32",
+	"hostName": "acctglobal",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1141180104176-01",
+	"orderGroup": "1141180104176",
+	"state": "canceled",
+	"isCheckedIn": false,
+	"sellerOrderId": "00-1141180104176-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 4499,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "Total dos Itens",
+			"value": 4499
+		},
+		{
+			"id": "Discounts",
+			"name": "Total dos Descontos",
+			"value": 0
+		},
+		{
+			"id": "Shipping",
+			"name": "Total do Frete",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "Total da Taxa",
+			"value": 0
+		}
+	],
+	"clientProfileData": {
+		"email": "849dbfd50d9c4c5c884ef794e7fba0f9@ct.vtex.com.br",
+		"firstName": "Luiz",
+		"lastName": "Priolli",
+		"document": "38187878835",
+		"documentType": "cpf",
+		"phone": "+5511989657368",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"profileCompleteOnLoading": true,
+		"profileErrorOnLoading": false,
+		"customerClass": null
+	},
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [],
+		"teaser": []
+	},
+	"shippingData": {
+		"address": {
+			"addressType": "residential",
+			"receiverName": "Luiz Priolli",
+			"addressId": "4802093407656",
+			"isDisposable": false,
+			"postalCode": "12941-302",
+			"city": "Atibaia",
+			"state": "SP",
+			"country": "BRA",
+			"street": "Rua Doutor Marcio Borges da Fonseca",
+			"number": "54",
+			"neighborhood": "Condomínio Loteamento Quadra dos Príncipes",
+			"complement": null,
+			"reference": null,
+			"geoCoordinates": [
+				-46.53352355957031,
+				-23.117046356201172
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"selectedSla": "Regular",
+				"selectedDeliveryChannel": "delivery",
+				"addressId": "4802093407656",
+				"slas": [
+					{
+						"id": "Regular",
+						"deliveryChannel": "delivery",
+						"name": "Regular",
+						"deliveryIds": [
+							{
+								"courierId": "lab",
+								"warehouseId": "Retire_PickUp",
+								"dockId": "15b123c",
+								"courierName": "LAB - Regular",
+								"quantity": 1,
+								"kitItemDetails": []
+							}
+						],
+						"shippingEstimate": "0bd",
+						"shippingEstimateDate": null,
+						"lockTTL": "10d",
+						"availableDeliveryWindows": [],
+						"deliveryWindow": null,
+						"price": 0,
+						"listPrice": 0,
+						"tax": 0,
+						"pickupStoreInfo": {
+							"isPickupStore": false,
+							"friendlyName": null,
+							"address": null,
+							"additionalInfo": null,
+							"dockId": null
+						},
+						"pickupPointId": null,
+						"pickupDistance": 0,
+						"polygonName": "amerika",
+						"transitTime": "0bd"
+					}
+				],
+				"shipsTo": [
+					"BRA",
+					"USA",
+					"COL"
+				],
+				"itemId": "10040",
+				"deliveryChannels": [
+					{
+						"id": "delivery"
+					},
+					{
+						"id": "pickup-in-point"
+					}
+				]
+			}
+		],
+		"selectedAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "Luiz Priolli",
+				"addressId": "4802093407656",
+				"isDisposable": false,
+				"postalCode": "12941-302",
+				"city": "Atibaia",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Rua Doutor Marcio Borges da Fonseca",
+				"number": "54",
+				"neighborhood": "Condomínio Loteamento Quadra dos Príncipes",
+				"complement": null,
+				"reference": null,
+				"geoCoordinates": [
+					-46.53352355957031,
+					-23.117046356201172
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressType": "residential",
+				"receiverName": "Luiz Priolli",
+				"addressId": "4802093407656",
+				"isDisposable": false,
+				"postalCode": "12941-302",
+				"city": "Atibaia",
+				"state": "SP",
+				"country": "BRA",
+				"street": "Rua Doutor Marcio Borges da Fonseca",
+				"number": "54",
+				"neighborhood": "Condomínio Loteamento Quadra dos Príncipes",
+				"complement": null,
+				"reference": null,
+				"geoCoordinates": [
+					-46.53352355957031,
+					-23.117046356201172
+				]
+			}
+		],
+		"pickupPoints": []
+	},
+	"paymentData": {
+		"giftCards": [
+			{
+				"redemptionCode": null,
+				"provider": "test",
+				"value": 0,
+				"balance": 6000,
+				"name": null,
+				"caption": null,
+				"id": "10ddf178539248a49039b71dbc8159a8",
+				"inUse": false,
+				"isSpecialCard": true,
+				"groupName": null
+			}
+		],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "322C08781E5E4C59B66D3F8775FF6FFF",
+				"merchantName": "ACCTGLOBAL",
+				"payments": [
+					{
+						"id": "163CAF8E1EDB43739B40FB89E2EAD950",
+						"paymentSystem": "17",
+						"paymentSystemName": "Promissory",
+						"value": 4499,
+						"installments": 1,
+						"connectorResponses": {},
+						"referenceValue": 4499,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"koinUrl": null,
+						"tid": null,
+						"redemptionCode": null,
+						"giftCardId": null,
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"group": "promissory",
+						"dueDate": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": null
+					}
+				],
+				"sharedTransaction": false
+			}
+		]
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"invoiceData": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": null,
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "1",
+	"followUpEmail": "82017c942f24465b853d922dd797b660@ct.vtex.com.br",
+	"creationDate": "2021-06-21T14:01:45.0688803Z",
+	"lastChange": "2021-07-23T14:02:14.8929499Z",
+	"timeZoneCreationDate": "2021-06-21T11:01:45.0688803",
+	"timeZoneLastChange": "2021-07-23T11:02:14.8929499",
+	"isCompleted": true,
+	"merchantName": null,
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"cancellationData": {
+		"requestedByUser": false,
+		"reason": null,
+		"cancellationDate": "2021-07-23T14:02:12.7713535Z"
+	},
+	"_accountInfo": {
+		"MainAccountName": "acctglobal",
+		"AccountName": "acctglobal",
+		"Cnpj": "94369577000119",
+		"Id": "2cbdb6bd-f41f-4855-942e-5609832b5808",
+		"IsActive": true,
+		"IsOperating": false,
+		"CreationDate": "2019-11-28T14:16:41",
+		"OperationDate": null,
+		"CompanyName": "ACCT CONSULTORIA E DESENVOLVIMENTO LTDA",
+		"TradingName": "ACCT CONSULTORIA E DESENVOLVIMENTO LTDA",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licences": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex"
+	}
+}

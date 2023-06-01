@@ -1,0 +1,434 @@
+{
+	"orders": [
+		{
+			"package": null,
+			"subjectItemAttachment": {
+				"item": "gun",
+				"totalItems": 1
+			},
+			"cancellationReason": null,
+			"items": [
+				{
+					"additionalInfo": {
+						"categoriesIds": "/1/",
+						"productClusterId": "139",
+						"commercialConditionId": "1",
+						"dimension": {
+							"cubicweight": 0.0002,
+							"height": 1,
+							"length": 1,
+							"weight": 1,
+							"width": 1
+						},
+						"brandName": "Anatomic Shoes",
+						"brandId": "2000001",
+						"offeringInfo": null,
+						"offeringType": null,
+						"offeringTypeId": null
+					},
+					"sellerSku": "3073",
+					"priceTable": null,
+					"priceValidUntil": null,
+					"callCenterOperator": null,
+					"commission": 1000,
+					"freightCommission": 0,
+					"taxCode": "",
+					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:acctglobal:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/27",
+					"uniqueId": "E0F2F71E954945C68DA2205553DE4845",
+					"id": "27",
+					"productId": "24",
+					"productRefId": "",
+					"refId": null,
+					"ean": "EAN1159756",
+					"name": "gun",
+					"skuName": "gun",
+					"modalType": null,
+					"parentItemIndex": null,
+					"parentAssemblyBinding": null,
+					"assemblies": [],
+					"tax": 0,
+					"price": 1499,
+					"listPrice": 1499,
+					"manualPrice": null,
+					"manualPriceAppliedBy": null,
+					"sellingPrice": 1499,
+					"rewardValue": 0,
+					"isGift": false,
+					"preSaleDate": null,
+					"productCategoryIds": "/1/",
+					"productCategories": {
+						"1": "Test Category"
+					},
+					"quantity": 1,
+					"seller": "ssguns",
+					"sellerChain": [
+						"ssguns"
+					],
+					"imageUrl": "http://acctglobal.vteximg.com.br/arquivos/ids/155663-200-200/dummy_gun.jpg?v=637272396030670000",
+					"detailUrl": "/gun/p",
+					"components": [],
+					"bundleItems": [],
+					"attachments": [],
+					"attachmentOfferings": [],
+					"offerings": [],
+					"priceTags": [],
+					"availability": "available",
+					"measurementUnit": "un",
+					"unitMultiplier": 1,
+					"manufacturerCode": "",
+					"priceDefinition": {
+						"calculatedSellingPrice": 1499,
+						"total": 1499,
+						"sellingPrices": [
+							{
+								"value": 1499,
+								"quantity": 1
+							}
+						]
+					}
+				}
+			],
+			"sellers": [
+				{
+					"subSellerId": "ssguns",
+					"fulfillmentEndpoint": "https://deguns--acctglobal.myvtex.com/_v/sportsouth/",
+					"id": "ssguns",
+					"name": "ssguns",
+					"logo": ""
+				}
+			],
+			"giftRegistryData": null,
+			"receiptData": null,
+			"contextData": null,
+			"marketPlaceOrderId": "",
+			"marketPlaceOrderGroup": null,
+			"marketplaceServicesEndpoint": null,
+			"orderFormId": "da964ec41a494d13868f1b19cfc80fb6",
+			"sequence": "506242",
+			"affiliateId": "",
+			"status": "",
+			"callCenterOperator": "",
+			"userProfileId": "34257d72-6004-457f-aebb-b187e6187a32",
+			"hostName": "acctglobal",
+			"creationVersion": null,
+			"creationEnvironment": null,
+			"lastChangeVersion": null,
+			"workflowInstanceId": null,
+			"marketplacePaymentValue": null,
+			"orderId": "1151532706744-01",
+			"orderGroup": "1151532706744",
+			"state": "payment-pending",
+			"isCheckedIn": false,
+			"sellerOrderId": "8266156",
+			"storeId": null,
+			"checkedInPickupPointId": null,
+			"value": 1499,
+			"totals": [
+				{
+					"id": "Items",
+					"name": "Total dos Itens",
+					"value": 1499
+				},
+				{
+					"id": "Discounts",
+					"name": "Total dos Descontos",
+					"value": 0
+				},
+				{
+					"id": "Shipping",
+					"name": "Total do Frete",
+					"value": 0
+				},
+				{
+					"id": "Tax",
+					"name": "Total da Taxa",
+					"value": 0
+				}
+			],
+			"clientProfileData": {
+				"email": "a283dbeeb1314ae98d75e7ad1b68c5ad@ct.vtex.com.br",
+				"firstName": "Luiz",
+				"lastName": "Priolli",
+				"document": "126.855.490-13",
+				"documentType": "cpf",
+				"phone": "+5511989657368",
+				"corporateName": null,
+				"tradeName": null,
+				"corporateDocument": null,
+				"stateInscription": null,
+				"corporatePhone": null,
+				"isCorporate": false,
+				"profileCompleteOnLoading": true,
+				"profileErrorOnLoading": false,
+				"customerClass": null
+			},
+			"ratesAndBenefitsData": {
+				"rateAndBenefitsIdentifiers": [],
+				"teaser": []
+			},
+			"shippingData": {
+				"address": {
+					"addressType": "residential",
+					"receiverName": "Luiz Priolli",
+					"addressId": "4802093407656",
+					"isDisposable": false,
+					"postalCode": "12941-302",
+					"city": "Atibaia",
+					"state": "SP",
+					"country": "BRA",
+					"street": "Rua Doutor Marcio Borges da Fonseca",
+					"number": "54",
+					"neighborhood": "Condomínio Loteamento Quadra dos Príncipes",
+					"complement": null,
+					"reference": null,
+					"geoCoordinates": [
+						-46.53352355957031,
+						-23.117046356201172
+					]
+				},
+				"logisticsInfo": [
+					{
+						"itemIndex": 0,
+						"selectedSla": "Regular",
+						"selectedDeliveryChannel": "delivery",
+						"addressId": "4802093407656",
+						"slas": [
+							{
+								"id": "Regular",
+								"deliveryChannel": "delivery",
+								"name": "Regular",
+								"deliveryIds": [
+									{
+										"courierId": "lab",
+										"warehouseId": "151227e",
+										"dockId": "15b123c",
+										"courierName": "LAB - Regular",
+										"quantity": 1,
+										"kitItemDetails": []
+									}
+								],
+								"shippingEstimate": "0bd",
+								"shippingEstimateDate": null,
+								"lockTTL": "10d",
+								"availableDeliveryWindows": [],
+								"deliveryWindow": null,
+								"price": 0,
+								"listPrice": 0,
+								"tax": 0,
+								"pickupStoreInfo": {
+									"isPickupStore": false,
+									"friendlyName": null,
+									"address": null,
+									"additionalInfo": null,
+									"dockId": null
+								},
+								"pickupPointId": null,
+								"pickupDistance": 0,
+								"polygonName": "amerika",
+								"transitTime": "0bd"
+							}
+						],
+						"shipsTo": [
+							"BRA",
+							"USA",
+							"COL"
+						],
+						"itemId": "27",
+						"deliveryChannels": [
+							{
+								"id": "delivery"
+							},
+							{
+								"id": "pickup-in-point"
+							}
+						]
+					}
+				],
+				"selectedAddresses": [
+					{
+						"addressType": "residential",
+						"receiverName": "Luiz Priolli",
+						"addressId": "4802093407656",
+						"isDisposable": false,
+						"postalCode": "12941-302",
+						"city": "Atibaia",
+						"state": "SP",
+						"country": "BRA",
+						"street": "Rua Doutor Marcio Borges da Fonseca",
+						"number": "54",
+						"neighborhood": "Condomínio Loteamento Quadra dos Príncipes",
+						"complement": null,
+						"reference": null,
+						"geoCoordinates": [
+							-46.53352355957031,
+							-23.117046356201172
+						]
+					}
+				],
+				"availableAddresses": [
+					{
+						"addressType": "residential",
+						"receiverName": "Luiz Priolli",
+						"addressId": "4802093407656",
+						"isDisposable": false,
+						"postalCode": "12941-302",
+						"city": "Atibaia",
+						"state": "SP",
+						"country": "BRA",
+						"street": "Rua Doutor Marcio Borges da Fonseca",
+						"number": "54",
+						"neighborhood": "Condomínio Loteamento Quadra dos Príncipes",
+						"complement": null,
+						"reference": null,
+						"geoCoordinates": [
+							-46.53352355957031,
+							-23.117046356201172
+						]
+					}
+				],
+				"pickupPoints": []
+			},
+			"paymentData": {
+				"giftCards": [
+					{
+						"redemptionCode": null,
+						"provider": "test",
+						"value": 0,
+						"balance": 6000,
+						"name": null,
+						"caption": null,
+						"id": "da964ec41a494d13868f1b19cfc80fb6",
+						"inUse": false,
+						"isSpecialCard": true,
+						"groupName": null
+					}
+				],
+				"transactions": [
+					{
+						"isActive": true,
+						"transactionId": "8DC294473F2748958E169BF87468B6EA",
+						"merchantName": "ACCTGLOBAL",
+						"payments": [
+							{
+								"id": "465CF2A626364A94BC95F436071D2D55",
+								"paymentSystem": "520160",
+								"paymentSystemName": "BOLBRADESCO",
+								"value": 1499,
+								"installments": 1,
+								"connectorResponses": {
+									"Tid": "1239385841",
+									"ReturnCode": null,
+									"Message": null,
+									"authId": "1239385841",
+									"acquirer": "MercadoPagoV1",
+									"message": "pending_waiting_payment"
+								},
+								"referenceValue": 1499,
+								"cardHolder": null,
+								"cardNumber": null,
+								"firstDigits": null,
+								"lastDigits": null,
+								"cvv2": null,
+								"expireMonth": null,
+								"expireYear": null,
+								"url": "https://www.mercadopago.com/mlb/payments/sandbox/ticket/helper?payment_id=1239385841&payment_method_reference_id=9831041443&caller_id=462061132&hash=54f84c9b-d92c-4272-9bc5-e8f8b4773c71",
+								"koinUrl": null,
+								"tid": "1239385841",
+								"redemptionCode": null,
+								"giftCardId": null,
+								"giftCardProvider": null,
+								"giftCardAsDiscount": null,
+								"group": "bankInvoice",
+								"dueDate": null,
+								"accountId": null,
+								"parentAccountId": null,
+								"bankIssuedInvoiceIdentificationNumber": null,
+								"bankIssuedInvoiceIdentificationNumberFormatted": null,
+								"bankIssuedInvoiceBarCodeNumber": null,
+								"bankIssuedInvoiceBarCodeType": null,
+								"billingAddress": null
+							}
+						],
+						"sharedTransaction": false
+					}
+				]
+			},
+			"clientPreferencesData": {
+				"locale": "pt-BR",
+				"optinNewsLetter": false
+			},
+			"commercialConditionData": null,
+			"marketingData": null,
+			"storePreferencesData": {
+				"countryCode": "BRA",
+				"saveUserData": false,
+				"timeZone": "E. South America Standard Time",
+				"currencyCode": "BRL",
+				"currencyLocale": 1046,
+				"currencySymbol": "R$",
+				"currencyFormatInfo": {
+					"currencyDecimalDigits": 2,
+					"currencyDecimalSeparator": ",",
+					"currencyGroupSeparator": ".",
+					"currencyGroupSize": 3,
+					"startsWithCurrencySymbol": true
+				}
+			},
+			"openTextField": null,
+			"invoiceData": null,
+			"itemMetadata": null,
+			"taxData": null,
+			"customData": null,
+			"hooksData": null,
+			"changeData": null,
+			"subscriptionData": null,
+			"salesChannel": "1",
+			"followUpEmail": "",
+			"creationDate": "2021-08-03T16:45:05.2502302Z",
+			"lastChange": "2021-08-03T16:45:14.0020654Z",
+			"timeZoneCreationDate": "2021-08-03T13:45:05.2502302",
+			"timeZoneLastChange": "2021-08-03T13:45:14.0020654",
+			"isCompleted": true,
+			"merchantName": null,
+			"userType": "",
+			"roundingError": 0,
+			"allowEdition": false,
+			"allowCancellation": false,
+			"isUserDataVisible": false,
+			"allowChangeSeller": false
+		}
+	],
+	"ordersUrl": "http://acctglobal.myvtex.com/account#/orders",
+	"orderGroup": "1151532706744",
+	"subjectItemAttachment": {
+		"item": "gun",
+		"totalItems": 1
+	},
+	"split": false,
+	"totalValue": 1499,
+	"callCenterOperatorData": null,
+	"_accountInfo": {
+		"MainAccountName": "acctglobal",
+		"AccountName": "acctglobal",
+		"Cnpj": "94369577000119",
+		"Id": "2cbdb6bd-f41f-4855-942e-5609832b5808",
+		"IsActive": true,
+		"IsOperating": false,
+		"CreationDate": "2019-11-28T14:16:41",
+		"OperationDate": null,
+		"CompanyName": "Chopp Brahma.",
+		"TradingName": "Chopp Brahma.",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licences": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex"
+	}
+}

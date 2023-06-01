@@ -1,0 +1,33 @@
+.menuContainer--wrapper--footer-mobile {
+    background: #73708B;
+    width: 100%;
+    padding: 27px 20px 24px;
+}
+
+.accordionIcon {
+    color: #FFF;
+}
+
+@media (max-width: 480px) {
+    .menuContainer--wrapper--footer-mobile .menuItem .menuItemInnerDiv {
+        padding: 0 20%;
+    }
+
+    .menuContainer--wrapper--footer-mobile :last-child {
+        align-self: center;
+    }
+
+    .menuContainer--wrapper--footer-mobile .menuItem .styledLinkContainer .styledLink {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .menuContainer--wrapper--footer-mobile .vtex-menu-2-x-menuItem--isClosed {
+        align-self: center;
+      }
+
+    .menuItem .styledLinkContainer .styledLink .styledLinkContent {
+        margin: 0 auto;
+    }
+}

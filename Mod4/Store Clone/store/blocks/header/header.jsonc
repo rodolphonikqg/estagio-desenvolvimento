@@ -1,0 +1,139 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-bar",
+      "flex-layout.row#1-desktop"
+    ]
+  },
+
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#institutional"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": ["flex-layout.row#3-desktop"]
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "overlay-trigger",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "overlay-trigger": {
+    "children": [
+      "rich-text#search",
+      "overlay-layout" 
+    ]
+  },
+  "rich-text#search": {
+    "props": {
+      "text": "![Search Icon](assets/imgs/icons/search.png)",
+      "blockClass": "search-icon"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "showArrow": true,
+      "scrollBehavior": "close-on-scroll"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "blockClass": "category-items",
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/logos/merci-logo.png",
+      "width": "100"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "overlay-trigger",
+      "logo#mobile",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#travels",
+      "menu-item#for-her",
+      "menu-item#for-him",
+      "menu-item#children",
+      "menu-item#daily-use",
+      "menu-item#ready-to-delivery",
+      "menu-item#sale"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/logos/merci-logo.png",
+      "width": "70"
+    }
+  }
+}
