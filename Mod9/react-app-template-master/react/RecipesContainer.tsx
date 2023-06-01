@@ -4,32 +4,29 @@ import { useProduct } from 'vtex.product-context'
 import GET_RECIPES from './GraphQL/GET_RECIPES.gql'
 import { useQuery } from 'react-apollo'
 
+export interface IRecipeField {
+    key: string
+    value: string
+    __typename: string
+}
+
 export interface IRecipe {
     title: string
     recipe: string
     SKU: number
     publishedDate: string
-    fields?: any[]
+    fields?: IRecipeField[]
 }
 
-export interface IData {
-    SKU: number
-    accountId: string
-    accountName: string
-    auto_filter: null
-    createdBy: string
-    createdIn: string
-    dataEntityId: string
-    followers: []
-    id: string
-    lastInteractionBy: string
-    lastInteractionIn: string
-    publishedDate: string
-    recipe: string
-    tags: []
-    title: string
-    updatedBy: null | string
-    updatedIn: null | string
+interface Field {
+    key: string
+    value: string
+    __typename: string
+}
+
+interface Document {
+    fields: Field[]
+    __typename: string
 }
 
 const RecipesContainer: StorefrontFunctionComponent = () => {
@@ -49,8 +46,8 @@ const RecipesContainer: StorefrontFunctionComponent = () => {
 
     useEffect(() => {
         if (data && data.documents.length) {
-            const transformedData = data.documents.map((document: any) => {
-                const fields = document.fields.reduce((acc: any, field: any) => {
+            const transformedData: Record<string, string>[] = data.documents.map((document: Document) => {
+                const fields: Record<string, string> = document.fields.reduce((acc: Record<string, string>, field: Field) => {
                     acc[field.key] = field.value;
                     return acc;
                 }, {});
@@ -61,13 +58,13 @@ const RecipesContainer: StorefrontFunctionComponent = () => {
         }
     }, [data]);
 
-    const [selected, setSelected] = useState("");
+    const [selected, setSelected] = useState<string>("");
 
     const [isSearching, setIsSearching] = useState<boolean>(false)
 
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState<string>("")
 
-    const [inputAlert, setInputAlert] = useState(false)
+    const [inputAlert, setInputAlert] = useState<boolean>(false)
 
     const sortDataByDate = () => {
         return setData((prevData: IRecipe[]) => [...prevData].sort(
