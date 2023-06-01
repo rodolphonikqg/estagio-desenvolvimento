@@ -44,6 +44,8 @@ const RecipesContainer: StorefrontFunctionComponent = () => {
 
     const [dataInit, setData] = useState<any>([]);
 
+    const [isSearching, setIsSearching] = useState<boolean>(false);
+
     useEffect(() => {
         if (data && data.documents.length) {
             const transformedData: Record<string, string>[] = data.documents.map((document: Document) => {
@@ -56,11 +58,9 @@ const RecipesContainer: StorefrontFunctionComponent = () => {
             });
             setData(transformedData);
         }
-    }, [data]);
+    }, [data, isSearching]);
 
     const [selected, setSelected] = useState<string>("");
-
-    const [isSearching, setIsSearching] = useState<boolean>(false)
 
     const [search, setSearch] = useState<string>("")
 
@@ -109,12 +109,13 @@ const RecipesContainer: StorefrontFunctionComponent = () => {
 
                         <div className="mb8 flex justify-between mw6">
 
-                            <button style={{ cursor: "pointer" }} className="f6 bg-white br3" onClick={handleSearchClick}>RR{isSearching}</button>
+                            <button style={{ cursor: "pointer" }} className="f6 bg-white br3" onClick={handleSearchClick}>RR</button>
 
                             <InputSearch
                                 placeholder="Pesquise por SKU. Ex.: 7"
                                 value={search}
                                 size="small"
+                                onClear={() => setSearch("")}
                                 onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                                     const inputValue = e.target.value.toString();
                                     if (previousValueRef.current.length > inputValue.length) {
